@@ -1,0 +1,270 @@
+
+/* Cloned from support page's CSS for consistent look*/
+/*
+#by_class_dropdown{
+	
+}
+*/
+/* Size + header  CSS*/
+
+.popover{
+    max-width: 400px;
+}
+.popover-inner {
+    width : 400px;
+}
+
+.circle-container {
+    position: relative;
+    width: 360px;
+    height: 360px;
+    padding: 20px;
+    /*2.8em = 2em*1.4 (2em = half the width of a link with img, 1.4 = sqrt(2))*/
+    border: dashed 1px;
+    border-radius: 50%;
+    margin: 1.75em auto 0;
+}
+
+.circle-container img { display: block; width: 100%; }
+.deg0 { width: 110px; transform: translate(105px, 144px) translate(0,-180px)} 
+.deg51 { width: 110px; transform: translate(-15px, 144px) rotate(55deg) translate(0,-180px) rotate(-55deg);}
+.deg102 { width: 110px; transform: translate(105px, 110px) rotate(102deg) translate(0,-180px) rotate(-102deg);}
+.deg153 { width: 110px; transform: translate(-15px, 110px) rotate(153deg) translate(0,-180px) rotate(-153deg);}
+.deg207 { width: 110px; transform: translate(105px, 76px) rotate(207deg) translate(0,-180px) rotate(-207deg);}
+.deg258 { width: 110px; transform: translate(-15px, 76px) rotate(258deg) translate(0,-180px) rotate(-258deg);}
+.deg309 { width: 110px; transform: translate(105px, 42px) rotate(304deg) translate(0,-180px) rotate(-304deg); }
+
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 35px;
+}
+
+.sub-header {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+/* Sidebar  CSS*/
+.sidebar {
+    display: none;
+	border-color: #fbc650;
+}
+@media (min-width: 768px) {
+	.sidebar {
+		background-color: #f5f5f5;
+		border-right: 1px solid #fbc650;
+		border-top: 1px solid #fbc650;
+		border-left: 1px solid #fbc650;
+		bottom: 0;
+		display: block;
+		left: 0;
+		overflow-x: hidden;
+		overflow-y: auto;
+		padding: 20px;
+		position: fixed;
+		top: 51px;
+		z-index: 0 !important;
+	}
+}
+
+.askStandardCart { 
+    width: 600px; 
+    float: left; 
+    margin-top: 1em; 
+}
+.researchStandardCart { 
+    width: 600px; 
+    float: left; 
+    margin-top: 1em; 
+}
+.imagineStandardCart { 
+    width: 600px; 
+    float: left; 
+    margin-top: 1em; 
+}
+.planStandardCart { 
+    width: 600px; 
+    float: left; 
+    margin-top: 1em; 
+}
+.createStandardCart { 
+    width: 600px; 
+    float: left; 
+    margin-top: 1em; 
+}
+.testStandardCart { 
+    width: 600px; 
+    float: left; 
+    margin-top: 1em; 
+}
+.improveStandardCart { 
+    width: 600px; 
+    float: left; 
+    margin-top: 1em; 
+}
+
+/* Side Button CS*/
+.sideButtons {
+    display: none;
+	border-color: #fbc650;
+}
+@media (min-width: 768px) {
+	.sideButtons {
+		background-color: #f5f5f5;
+		border-right: 3px solid #ffffff;
+		border-top: 3px solid #ffffff;
+		border-left: 3px solid #ffffff;
+		border-bottom: 3px solid #ffffff;
+		bottom: 100px;
+		display: block;
+		left: 0;
+		overflow-x: hidden;
+		overflow-y: auto;
+		padding: 15px;
+		position: fixed;
+		top: 150px;
+		z-index: 0 !important;
+	}
+}
+
+/* Nav-sidebar + text CSS*/
+.nav-sidebar {
+    margin-bottom: 20px;
+    margin-left: -20px;
+    margin-right: -21px;
+}
+li {
+    line-height: 20px;
+}
+    
+.nav-sidebar > li {
+    display:block;
+}
+    
+.nav-sidebar > li > a {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.nav-sidebar > .active > a, .nav-sidebar > .active > a:hover, .nav-sidebar > .active > a:focus {
+    background-color: #64bed8;
+    color: #fff;
+    padding-bottom: 0;
+    padding-top: 2px;
+    height: 40px;
+}
+a {
+    color: #64bed8;
+    text-decoration: none;
+}
+
+/* Main Div CSS*/
+.main {
+    padding: 20px;
+}
+@media (min-width: 768px) {
+	.main {
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+}
+.main .page-header {
+    margin-top: 0;
+}
+
+/* Glyphicon placeholder, size, color CSS*/
+.placeholders {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.big {
+    font-size:5em;
+}
+.blue {
+    color: #64bed8;
+}
+.gold {
+    color: #fbc650;
+}
+.btn-blue{
+	border-color: #64bed8;
+	background-color: #64bed8;
+	color: #fff;
+}
+.btn-gold{
+	border-color: #fbc650;
+	background-color: #fbc650;
+	color: #fff;
+}
+
+/* Panel CSS*/
+.panel-blue > .panel-heading {
+	border-color: #64bed8;
+	background-color: #64bed8;
+	color: #fff;
+}
+.panel-blue {
+	border-color: #64bed8;
+}
+.panel-gold > .panel-heading {
+	border-color: #fbc650;
+	background-color: #fbc650;
+	color: #fff;
+}
+.panel-gold {
+	border-color: #fbc650;
+}
+
+.alert-danger {
+    margin:auto;
+    width: 550px;
+}
+
+/* List Project CSS */
+ #list.container{
+	background-color:white;
+     width: 900px;
+}
+
+#greyColor{
+	color:grey;
+}
+
+#listheader{
+	font-weight: 10;
+	color: #64bed8;
+}
+
+/*Print Project CSS*/
+@media print {
+ .section-to-hide{
+	visibility: hidden !important;
+ }
+  .row {
+    visibility: hidden;
+  }
+  
+  .section-to-print {
+    visibility: visible;
+  }
+  .section-to-print {
+    position: relative;
+	margin-top: 0.75in;
+    margin-bottom: 0.75in;
+    margin-left: 0.25in;
+    margin-right: 0.75in;
+  }
+  
+  .print-spacing{
+	margin-top: 100%;
+  }
+
+    .centered {
+        position: fixed; /* or absolute */
+        top: 50%;
+        left: 50%;
+    }
+}

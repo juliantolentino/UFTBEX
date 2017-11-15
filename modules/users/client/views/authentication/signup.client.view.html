@@ -1,0 +1,109 @@
+<div data-ng-controller="AuthenticationController">
+  <body>
+    <div class="col-xs-offset-1 col-xs-10 col-md-offset-4 col-md-4 login-form-bg">
+      <h3 class="text-center">Create a new account</h3>
+      <form name="userForm" data-ng-submit="signup()" class="signin form-horizontal" novalidate autocomplete="off">
+        <fieldset>
+          <div class ="form-group">
+            <div data-ng-show="error" class="text-center text-danger">
+              <div class= "alert alert-danger" role= "alert" style="width:360px">
+                <strong data-ng-bind="error"></strong>
+              </div>
+            </div>
+          </div>
+          <!-- Sign up form
+          Allows users to enter their information when creating account:
+          first name, last name, email, age, and grades taught.
+          Next section is the county and corresponding schools selection.
+          -->
+          <div class="form-group">
+            <div class="input-group input-group-lg">
+                <span class="input-group-addon">
+                  <i class = "text-muted glyphicon glyphicon-star"></i>
+                </span>
+                <input type="text" required id="firstName" name="firstName" class="form-control"
+                     data-ng-model="credentials.firstName" placeholder="First Name">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="input-group input-group-lg">
+              <span class="input-group-addon">
+                <i class = "text-muted glyphicon glyphicon-star"></i>
+              </span>
+              <input type="text" id="lastName" name="lastName" class="form-control"
+                   data-ng-model="credentials.lastName" placeholder="Last Name">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="input-group input-group-lg">
+              <span class="input-group-addon">
+                <i class = "text-muted glyphicon glyphicon-envelope"></i>
+              </span>
+              <input type="email" id="email" name="email" class="form-control" data-ng-model="credentials.email"
+                   placeholder="Email">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="input-group input-group-lg">
+               <span class="input-group-addon">
+                  <i class = "text-muted glyphicon glyphicon-info-sign"></i>
+                </span>
+                <input type="text" required id="age" name="age" class="form-control"
+                     data-ng-model="credentials.age" placeholder="Age">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="input-group input-group-lg">
+                <span class="input-group-addon">
+                  <i class = "text-muted glyphicon glyphicon-info-sign"></i>
+                </span>
+                <input type="text" required id="gradesTaught" name="gradesTaught" class="form-control"
+                     data-ng-model="credentials.gradesTaught" placeholder="Grades You Teach">
+            </div>
+          </div>
+		  <!-- My version of school format-->
+		  <div class="form-group">
+			 <div class="input-group input-group-lg">
+			  <span class="input-group-addon">
+				<i class="text-muted glyphicon glyphicon-education"></i>
+			  </span>
+			  <select  id="county" name="county" class="form-control" ng-model="credentials.county" ng-change="countyChange()" required>
+			    <option value="" >Choose County</option>
+			    <option ng-repeat="county in schools | unique:'county'">{{county.county}}
+			  </select>
+			  <select required id="school" name="school" class="form-control" ng-model="credentials.school"  >
+				<option selected disabled value="" >Choose School</option> 
+				<option ng-repeat="school in schoolsC | unique:'school' | orderBy: 'school'">{{school.school}}</option>
+			  </select>	
+			 </div>
+		  </div>
+		  <!-- end of my  school format -->
+          <div class="form-group">
+            <div class="input-group input-group-lg">
+              <span class="input-group-addon">
+                <i class = "text-muted glyphicon glyphicon-user"></i>
+              </span>
+              <input type="text" id="username" name="username" class="form-control"
+                   data-ng-model="credentials.username" placeholder="Username">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="input-group input-group-lg">
+              <span class="input-group-addon">
+                <i class = "text-muted glyphicon glyphicon-asterisk"></i>
+              </span>
+              <input type="password" id="password" name="password" class="form-control"
+                   data-ng-model="credentials.password" placeholder="Password">
+            </div>
+          </div>
+          <div class="text-center form-group">
+            <button id="signup" type="submit" class="btn btn-lg btn-warning btn-block">Sign up</button>
+          </div>
+          <div class = "text-center form-group">
+            or&nbsp; <a data-ui-sref="authentication.signin" class="show-signup">Sign in</a>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</div>
