@@ -4,18 +4,18 @@ var defaultEnvConfig = require('./default');
 
 module.exports = {
   db: {
-    uri: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || '',
+    uri: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://ds163745.mlab.com:63745/uftbex',
     options: {
-      user: '',
-      pass: ''
+      user: 'dbuser',
+      pass: 'dbpassword'
     },
     // Enable mongoose debug mode
     debug: process.env.MONGODB_DEBUG || false
   },
   imageServer: {
-    key: process.env.S3_KEY,
-    secret: process.env.S3_SECRET,
-    bucket: process.env.S3_BUCKET
+    key: 'AKIAIQIZVFFTPVUY66AQ',
+    secret: '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',
+    bucket: 'isslepictures'
   },
   log: {
     // Can specify one of 'combined', 'common', 'dev', 'short', 'tiny'

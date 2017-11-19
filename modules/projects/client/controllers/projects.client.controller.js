@@ -245,7 +245,8 @@ angular.module('projects').controller('ProjectsController', ['$scope', '$statePa
 				improveStep: this.improveStep,
 				worksheetStep: this.worksheetStep,
 				essentialDetails: this.essentialDetails,
-				rating: null
+				rating: null,
+				isbn: "1234567"
 			});
 
 
