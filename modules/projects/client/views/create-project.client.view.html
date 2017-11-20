@@ -1,70 +1,80 @@
 <section data-ng-controller="ProjectsController">
-   <form class="container-fluid">
-      <div class="row">
-         <div class="col-sm-7  col-md-8 main">
-            <div class="panel panel-blue">
-               <div class="panel-heading">
-                  <div style="font-size:2em; display: block;" class="sub-header">Create Textbook Listing                       
-                  </div>
-               </div>
-               <div class="panel-body">
-                  <div class="form-group">
-                     <input type="text" class="input-group form-control" placeholder="Title" data-ng-model="title">
-                  </div>
-                  <div class="form-group">
-                     <input type="text" class="input-group form-control" placeholder="Author" data-ng-model="author">
-                  </div>
-                  <div class="form-group">
-                     <input type="text" class="input-group form-control" placeholder="ISBN" data-ng-model="isbn">
-                  </div>
-                  <div class="form-group">
-                     <input type="text" class="input-group form-control" placeholder="Condition" data-ng-model="condition">
-                  </div>
-                  <div class="form-group">
-                     <input type="text" class="input-group form-control" placeholder="Contact Information" data-ng-model="contactInformation">
-                  </div>
-                  <div class="form-group">
-                     <input type="text" class="input-group form-control" placeholder="Edition" data-ng-model="edition">
-                  </div>
-                  <div class="form-group">
-                     <input type="text" class="input-group form-control" placeholder="Instructor" data-ng-model="instructor">
-                  </div>
-                  <div class="form-group">
-                     <input type="text" class="input-group form-control" placeholder="Location" data-ng-model="location">
-                  </div>
-                  <div class="form-group">
-                     <input type="text" class="input-group form-control" placeholder="Price" data-ng-model="price">
-                  </div>
-                  <div class="form-group">
-                     <input type="text" class="input-group form-control" placeholder="Required?" data-ng-model="required">
-                  </div>
-                  <!-- An absolutely horrible way to solve the bottom problem -->
-                  <span data-ng-init="essentialDetails.mathDetails.subjectName = 'Mathematics'"></span>
-                  <span data-ng-init="essentialDetails.scienceDetails.subjectName = 'Science'"></span>
-                  <span data-ng-init="essentialDetails.litDetails.subjectName = 'Literature'"></span>
-                  <span data-ng-init="essentialDetails.ssDetails.subjectName = 'SocialStudies'"></span>
-                  <!-- An absolutely horrible way to solve the bottom problem -->
-                  <div class="row">
-                     <div class="col-md-4 ">
-                        <button type="button" class="btn btn-success btn-block btn-lg" data-ng-click="status = 'Active'; create();">Submit</button>
-                     </div>
-                     <div class="col-md-4 ">
-                        <button id="save" type="button" class="btn btn-primary btn-block btn-lg" data-ng-click="status = 'In Progress'; create()";>Save Draft</button>
-                     </div>
-                  </div>
-               </div>
+  <form class="container-fluid">
+    <div class="row">
+      <div class="col-sm-7  col-md-8 main">
+        <div class="panel panel-blue">
+          <div class="panel-heading">
+            <div style="font-size:2em; display: block;" class="sub-header">Create Textbook Listing                       
             </div>
-         </div>
-         <!-- The form has ended. Below are the buttons to submit the informaton, which will link it to the database. -->
-         <div class="col-sm-5 col-sm-offset-2 col-md-5 col-md-offset-3 main">
-            <span data-ng-show="authentication.user._id===NULL">
-               <div class="alert alert-success" role="alert">
-                  <p>Please sign in or sign up before you create a project</p>
-                  <p><a data-ui-sref="authentication.signup" class="alert-link">Click here to signup</a></p>
-                  <p><a data-ui-sref="authentication.signin" class="alert-link">Click here to signin</a></p>
-               </div>
-            </span>
-         </div>
+          </div>
+          <div class="panel-body">
+            <div class="form-group">
+              <p>Title:</p>
+              <input type="text" class="input-group form-control" placeholder="Title" data-ng-model="title">
+            </div>
+            <div class="form-group">
+              <p>Author:</p>
+              <input type="text" class="input-group form-control" placeholder="Author" data-ng-model="author">
+            </div>
+            <div class="form-group">
+              <p>ISBN:</p>
+              <input type="text" class="input-group form-control" placeholder="ISBN" data-ng-model="isbn">
+            </div>
+            <div class="form-group">
+              <p>Condition:</p>
+              <input type="text" class="input-group form-control" placeholder="Condition" data-ng-model="condition">
+            </div>
+            <div class="form-group">
+              <p>Contact Information:</p>
+              <input type="text" class="input-group form-control" placeholder="Contact Information" data-ng-model="contactInformation">
+            </div>
+            <div class="form-group">
+              <p>Edition:</p>
+              <input type="text" class="input-group form-control" placeholder="Edition" data-ng-model="edition">
+            </div>
+            <div class="form-group">
+              <p>Instructor:</p>
+              <input type="text" class="input-group form-control" placeholder="Instructor" data-ng-model="instructor">
+            </div>
+            <div class="form-group">
+              <p>Location:</p>
+              <input type="text" class="input-group form-control" placeholder="Location" data-ng-model="location">
+            </div>
+            <div class="form-group">
+              <p>Price:</p>
+              <input type="number" class="input-group form-control" placeholder="Price" data-ng-model="price">
+            </div>
+            <div class="form-group">
+              <p>Required?:</p>
+              <input type="text" class="input-group form-control" placeholder="Required?" data-ng-model="required">
+            </div>
+            <!-- An absolutely horrible way to solve the bottom problem -->
+            <span data-ng-init="essentialDetails.mathDetails.subjectName = 'Mathematics'"></span>
+            <span data-ng-init="essentialDetails.scienceDetails.subjectName = 'Science'"></span>
+            <span data-ng-init="essentialDetails.litDetails.subjectName = 'Literature'"></span>
+            <span data-ng-init="essentialDetails.ssDetails.subjectName = 'SocialStudies'"></span>
+            <!-- An absolutely horrible way to solve the bottom problem -->
+            <div class="row">
+              <div class="col-md-4 ">
+                <button type="button" class="btn btn-success btn-block btn-lg" data-ng-click="status = 'Active'; create();">Submit</button>
+              </div>
+              <div class="col-md-4 ">
+                <button id="save" type="button" class="btn btn-primary btn-block btn-lg" data-ng-click="status = 'In Progress'; create()";>Save Draft</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-   </form>
+      <!-- The form has ended. Below are the buttons to submit the informaton, which will link it to the database. -->
+      <div class="col-sm-5 col-sm-offset-2 col-md-5 col-md-offset-3 main">
+        <span data-ng-show="authentication.user._id===NULL">
+          <div class="alert alert-success" role="alert">
+            <p>Please sign in or sign up before you create a project</p>
+            <p><a data-ui-sref="authentication.signup" class="alert-link">Click here to signup</a></p>
+            <p><a data-ui-sref="authentication.signin" class="alert-link">Click here to signin</a></p>
+          </div>
+        </span>
+      </div>
+    </div>
+  </form>
 </section>
