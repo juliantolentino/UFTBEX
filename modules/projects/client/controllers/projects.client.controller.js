@@ -221,6 +221,16 @@ angular.module('projects').controller('ProjectsController', ['$scope', '$statePa
 			
 
 			var project = new Projects ({
+				title: this.title,
+				author: this.author,
+				isbn: this.isbn,
+				condition: this.condition,
+				contactInformation: this.contactInformation,
+				edition: this.edition,
+				instructor: this.instructor,
+				location: this.location,
+				price: this.price,
+				required: this.required,
 				name: this.name,
 				created: this.created,
 				user: this.user,
@@ -246,7 +256,6 @@ angular.module('projects').controller('ProjectsController', ['$scope', '$statePa
 				worksheetStep: this.worksheetStep,
 				essentialDetails: this.essentialDetails,
 				rating: null,
-				isbn: "1234567"
 			});
 
 

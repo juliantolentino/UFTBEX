@@ -1,7 +1,22 @@
 <section data-ng-controller="ProjectsController" data-ng-init="findOne()">
     <div data-ng-show="project.user._id">
         <div class="container" id="list" data-ng-show="project.status==='Active'&&project.isPublic||authentication.user._id===project.user._id">
-            <div class="section-to-print">
+          <div>
+            <h4>Title: {{project.title}}</h4>
+            <h4>Author: {{project.author}}</h4>
+            <h4>ISBN: {{project.isbn}}</h4>
+            <h4>Condition: {{project.condition}}</h4>
+            <h4>Contact Information: {{project.information}}</h4>
+            <h4>Edition: {{project.edition}}</h4>
+            <h4>Instructor: {{project.instructor}}</h4>
+            <h4>Location: {{project.location}}</h4>
+            <h4>price: {{project.price}}</h4>
+            <h4>Required: {{project.required}}</h4>
+          </div>  
+        <br>
+        <br>
+        <br>
+          <div class="section-to-print">
                 <div class="page-header">
                     <div class="sub-header">
                         <h2 style="display: inline-block">{{project.name}}</h2>
