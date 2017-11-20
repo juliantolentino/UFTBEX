@@ -1,292 +1,40 @@
 <section data-ng-controller="ProjectsController" data-ng-init="findOne()">
     <div data-ng-show="project.user._id">
         <div class="container" id="list" data-ng-show="project.status==='Active'&&project.isPublic||authentication.user._id===project.user._id">
-          <div>
-            <h4>Title: {{project.title}}</h4>
-            <h4>Author: {{project.author}}</h4>
-            <h4>ISBN: {{project.isbn}}</h4>
-            <h4>Condition: {{project.condition}}</h4>
-            <h4>Contact Information: {{project.information}}</h4>
-            <h4>Edition: {{project.edition}}</h4>
-            <h4>Instructor: {{project.instructor}}</h4>
-            <h4>Location: {{project.location}}</h4>
-            <h4>price: {{project.price}}</h4>
-            <h4>Required: {{project.required}}</h4>
-          </div>  
-        <br>
-        <br>
-        <br>
-          <div class="section-to-print">
-                <div class="page-header">
-                    <div class="sub-header">
-                        <h2 style="display: inline-block">{{project.name}}</h2>
-                        <span class = "section-to-hide">
-                            <span class="text-warning" data-ng-show="project.status !== 'Active'">
-                                &nbsp;&nbsp;[{{project.status}}]
-                            </span>
-                            <span class="text-info" data-ng-show="!project.isPublic">
-                                &nbsp;&nbsp;[Private]
-                            </span>
-                        </span>
-                    </div>
-                    
-                    <h4>Grade(s) {{project.minGrade}} - {{project.maxGrade}}</h4>
-                    <h4> Rating:
-                        <div ng-repeat="n in range(1,project.rating.avg_rating,1)" class="gold glyphicon glyphicon-star"></div>
-                        ({{project.rating.avg_rating.toPrecision(2)}}/5.0 stars)
-                    </h4>
-                    <h4>Remixed {{project.remixCount}} times</h4>
-                </div>
-                
-                <div class="panel panel-blue">
-                    <div class="panel-heading">
-                        <h2 class="panel-title">Ask: Identify the needs and constraints</h2>
-                    </div>
-                    <div class="panel-body">
-                        <h4 class="blue">What is the goal of the project?</h4>
-                        
-                        <h5 class="tab"><span ng-bind-html="linkify(project.ask.learningObjective)"><span></h5>
-                        </br>
-                        <h4 class="blue">What limits are there on the design, application or materials for students in reaching their engineering goal. Get the students to realize these limits, and to design with these limits in mind</h4>
-                        <h5 class="tab"><span ng-bind-html="linkify(project.ask.Constraints)"><span></h5>
-                        </br>
-                        <h4 class="blue">Linked Standards:</h4>
-                        <ol>
-                                <li ng-repeat="item in project.askStandardStep track by $index" ng-show="item.benchmark" data-ng-model="project.askStandardStep">{{item.benchmark}}</li>
-                        </ol>
-                    </div>
-                </div>
-                
-                <div class="panel panel-blue">
-                    <div class="panel-heading">
-                        <h2 class="panel-title">Research the problem</h2>
-                    </div>
-                    <div class="panel-body">
-                        <h4 class="blue">What do you want students to learn from their research?</h4>
-                        
-                        <h5 class="tab"><span ng-bind-html="linkify(project.research.focus)"><span></h5>
-                        </br>
-                        <h4 class="blue">What resources will they use?</h4>
-                        <h5 class="tab"><span ng-bind-html="linkify(project.research.resources)"><span></h5>
-                        </br>
-                        <h4 class="blue">Linked Standards:</h4>
-                        <ol>
-                                <li ng-repeat="item in project.researchStandardStep track by $index" ng-show="item.benchmark" data-ng-model="project.researchStandardStep">{{item.benchmark}}</li>
-                        </ol>
-                    </div>
-                </div>
-                
-                <div class="panel panel-blue">
-                    <div class="panel-heading">
-                        <h2 class="panel-title">Imagine: Develop possible solutions</h2>
-                    </div>
-                    <div class="panel-body">
-                        <h4 class="blue">Have students list possible solutions, even ones that won’t work. (They may inspire other ideas)</h4>
-                        
-                        <h5 class="tab"><span ng-bind-html="linkify(project.imagine.listStep)"><span></h5>
-                        </br>
-                        <h4 class="blue">Linked Standards:</h4>
-                        <ol>
-                                <li ng-repeat="item in project.imagineStandardStep track by $index" ng-show="item.benchmark" data-ng-model="project.imagineStandardStep">{{item.benchmark}}</li>
-                        </ol>
-                    </div>
-                </div>
-                
-                <div class="panel panel-blue">
-                    <div class="panel-heading">
-                        <h2 class="panel-title">Plan: Select a promising solution</h2>
-                    </div>
-                    <div class="panel-body">
-                        <h4 class="blue">How should your students decide which potential solution is best?</h4>
-                        
-                        <h5 class="tab"><span ng-bind-html="linkify(project.plan.selectStep)"><span></h5>
-                        </br>
-                        <h4 class="blue">Students should ask: what resources does the selected solution require? What will you have ready for them to use?</h4>
-                        <h5 class="tab"><span ng-bind-html="linkify(project.plan.resources)"><span></h5>
-                        </br>
-                        <h4 class="blue">Linked Standards:</h4>
-                        <ol>
-                                <li ng-repeat="item in project.planStandardStep track by $index" ng-show="item.benchmark" data-ng-model="project.planStandardStep">{{item.benchmark}}</li>
-                        </ol>
-                    </div>
-                </div>
-                
-                <div class="panel panel-blue">
-                    <div class="panel-heading">
-                        <h2 class="panel-title">Create: Build a prototype</h2>
-                    </div>
-                    <div class="panel-body">
-                        <h4 class="blue">Engineers build prototypes and small models to test if their design ideas will work for their application. What kind of prototype or model will your students build? How will you support them in the building of this model?</h4>
-                        
-                        <h5 class="tab"><span ng-bind-html="linkify(project.createStep.buildStep)"><span></h5>
-                        </br>
-                        <h4 class="blue">Linked Standards:</h4>
-                        <ol>
-                                <li ng-repeat="item in project.createStandardStep track by $index" ng-show="item.benchmark" data-ng-model="project.createStandardStep">{{item.benchmark}}</li>
-                        </ol>
-                    </div>
-                </div>
-                
-                <div class="panel panel-blue">
-                    <div class="panel-heading">
-                        <h2 class="panel-title">Test and evaluate prototype</h2>
-                    </div>
-                    <div class="panel-body">
-                        <h4 class="blue">Have students design 1-2 tests to evaluate their model, changing only one variable related to the performance requirements of their idea.</h4>
-                        
-                        <h5 class="tab"><span ng-bind-html="linkify(project.testStep.designStep)"><span></h5>
-                        </br>
-                        <h4 class="blue">Ask: Does the test show the model solves the problem? How well? Why does it work well/ or not work well for the application?</h4>
-                        <h5 class="tab"><span ng-bind-html="linkify(project.testStep.successStep)"><span></h5>
-                        </br>
-                        <h4 class="blue">Linked Standards:</h4>
-                        <ol>
-                                <li ng-repeat="item in project.testStandardStep track by $index" ng-show="item.benchmark" data-ng-model="project.testStandardStep">{{item.benchmark}}</li>
-                        </ol>
-                    </div>
-                </div>
-                
-                <div class="panel panel-blue">
-                    <div class="panel-heading">
-                        <h2 class="panel-title">Improve: Redesign as needed</h2>
-                    </div>
-                    <div class="panel-body">
-                        <h4 class="blue">Prompt: What would you change in the prototype next time?</h4>
-                        
-                        <h5 class="tab"><span ng-bind-html="linkify(project.improveStep.changeStep)"><span></h5>
-                        </br>
-                        <h4 class="blue">Linked Standards:</h4>
-                        <ol>
-                                <li ng-repeat="item in project.improveStandardStep track by $index" ng-show="item.benchmark" data-ng-model="project.improveStandardStep">{{item.benchmark}}</li>
-                        </ol>
-                    </div>
-                </div>
-                
-                <div class="panel panel-blue">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">Worksheet</h3>
-                    </div>
-                    <div class="panel-body">
-                        <img src="{{project.worksheetStep.theWorksheet}}" class="img-thumbnail" alt="No Image"/>
-                        </br>
-                    </div>
-                </div>
-                
-                <div class="print-spacing">
-                    
-               <!--      <div class="panel panel-blue">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">Essential Sketch and Details: </h3>
-                        </div>
-                        <div class="panel-body">
-                            
-                            <div class="panel panel-blue">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">Mathematics:</h3>
-                                </div>
-                                <div class="panel-body">
-                                    <h4 class="blue">Main Idea:</h4>
-                                    <h5 class="tab"><span ng-bind-html="linkify(project.essentialDetails.mathDetails[0].mainIdea)"><span></h5>
-                                    </br>
-                                    <h4 class="blue">Essential Details:</h4>
-                                    <h5 class="tab"><span ng-bind-html="linkify(project.essentialDetails.mathDetails[0].details)"><span></h5>
-                                    </br>
-                                    <h4 class="blue">Linked Math Standard(s):</h4>
-                                    <h5 class="tab">{{project.essentialDetails.mathDetails[0].standards}}</h5>
-                                    </br>
-                                </div>
-                            </div>
-                            
-                            <div class="panel panel-blue">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">Science:</h3>
-                                </div>
-                                <div class="panel-body">
-                                    <h4 class="blue">Main Idea:</h4>
-                                    <h5 class="tab"><span ng-bind-html="linkify(project.essentialDetails.scienceDetails[0].mainIdea)"><span></h5>
-                                    </br>
-                                    <h4 class="blue">Essential Details:</h4>
-                                    <h5 class="tab"><span ng-bind-html="linkify(project.essentialDetails.scienceDetails[0].details)"><span></h5>
-                                    </br>
-                                    <h4 class="blue">Linked Science Standard(s):</h4>
-                                    <h5 class ="tab">{{project.essentialDetails.scienceDetails[0].standards}}</h5>
-                                    </br>
-                                </div>
-                            </div>
-                            
-                            <div class="panel panel-blue">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">Literature:</h3>
-                                </div>
-                                <div class="panel-body">
-                                    <h4 class="blue">Main Idea:</h4>
-                                    <h5 class="tab"><span ng-bind-html="linkify(project.essentialDetails.litDetails[0].mainIdea)"><span></h5>
-                                    </br>
-                                    <h4 class="blue">Essential Details:</h4>
-                                    <h5 class="tab"><span ng-bind-html="linkify(project.essentialDetails.litDetails[0].details)"><span></h5>
-                                    </br>
-                                    <h4 class="blue">Linked Literature Standard(s):</h4>
-                                    <h5 class ="tab">{{project.essentialDetails.litDetails[0].standards}}</h5>
-                                    </br>
-                                </div>
-                            </div>
-                            
-                            <div class="panel panel-blue">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">Social Studies:</h3>
-                                </div>
-                                <div class="panel-body">
-                                    <h4 class="blue">Main Idea:</h4>
-                                    <h5 class="tab"><span ng-bind-html="linkify(project.essentialDetails.ssDetails[0].mainIdea)"><span></h5>
-                                    </br>
-                                    <h4 class="blue">Essential Details:</h4>
-                                    <h5 class="tab"><span ng-bind-html="linkify(project.essentialDetails.ssDetails[0].details)"><span></h5>
-                                    </br>
-                                    <h4 class="blue">Linked Social Studies Standard(s):</h4>
-                                    <h5 class ="tab">{{project.essentialDetails.ssDetails[0].standards}}</h5>
-                                    </br>
-                                </div>
-                            </div>
-                            
-                            
-                            <div data-ng-repeat="subz in project.essentialDetails.otherSubject">
-                                <div class="panel panel-blue">
-                                    <div class="panel-heading">
-                                        <h3 class="panel-title">{{subz.subjectName}}</h3>
-                                    </div>
-                                    <div class="panel-body">
-                                        <h4 class="blue">Main Idea:</h4>
-                                        <h5 class="tab"><span ng-bind-html="linkify(subz.mainIdea)"><span></h5>
-                                        </br>
-                                        <h4 class="blue">Essential Details:</h4>
-                                        <h5 class="tab"><span ng-bind-html="linkify(subz.details)"><span></h5>
-                                        </br>
-                                        <h4 class="blue">Linked Standard(s):</h4>
-                                        <h5 class ="tab">{{subz.standards}}</h5>
-                                        </br>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <h4 class="blue">How will students communicate findings?</h4>
-                            <h5 class="tab"><span ng-bind-html="linkify(project.essentialDetails.communicateFindings)"><span></h5>
-                            
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <small>
-                                        <em class="text-muted">
-                                            Posted on
-                                            <span data-ng-bind="project.created | date:'mediumDate'"></span>
-                                            by
-                                            <span data-ng-bind="project.user.displayName"></span>
-                                        </em>
-                                    </small>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
-                </div>
+          
+
+          <div class="panel-heading">
+              <div style="font-size:2em; display: block;" class="sub-header">View Textbook Listing                       
+              </div>
             </div>
+            <div class="panel-body">
+                <div>
+                    Title:
+                    <h4 class="input-group form-control"> {{project.title}}</h4>
+                    Author: 
+                    <h4 class="input-group form-control">{{project.author}}</h4>
+                    ISBN: 
+                    <h4 class="input-group form-control">{{project.isbn}}</h4>
+                    Condition: 
+                    <h4 class="input-group form-control">{{project.condition}}</h4>
+                    Contact Information: 
+                    <h4 class="input-group form-control">{{project.contactInformation}}</h4>
+                    Edition: 
+                    <h4 class="input-group form-control">{{project.edition}}</h4>
+                    Instructor: 
+                    <h4 class="input-group form-control">{{project.instructor}}</h4>
+                    Location: 
+                    <h4 class="input-group form-control">{{project.location}}</h4>
+                    price: 
+                    <h4 class="input-group form-control">{{project.price}}</h4>
+                    Required: 
+                    <h4 class="input-group form-control">{{project.required}}</h4>
+                  </div>  
+            </div>
+        <br>
+        <br>
+        <br>
+          
             
             
             <div class = "row" data-ng-show="authentication.user._id && authentication.user._id !== project.user._id">
@@ -317,12 +65,11 @@
             <div class="row" style="padding-bottom: 1%">
                 <div class="col-md-12">
                     <div class="pull-right">
-                        <!-- remix button, allows users to copy contents of any public project and make it their own-->
-                        <a class="btn btn-info" data-ng-show="authentication.user._id!==NULL" data-ng-click="incRemix(); remix()">Remix</button </a>
-                            
-                            <a class="btn btn-success" onclick="window.print()">
-                                Print Project
+                            <!--
+                            <a class="btn btn-success">
+                                Confirm
                             </a>
+                          -->
                             </div>
                     <!--<div class="pull-right" data-ng-show="authentication.user._id === project.user._id">-->
                         <div class="pull-right" data-ng-show="projectOwnership">

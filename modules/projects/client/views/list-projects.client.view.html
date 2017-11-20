@@ -2,6 +2,7 @@
   <div class="container-fluid">
     <h2>Search for Textbooks</h2>
     <div class="main row">
+      <!--
       <div class="col-md-6"> <br>
         <div style="text-align:center">
           <span style="font-size:5em" class="blue glyphicon glyphicon-list-alt" aria-hidden="true"></span>
@@ -31,7 +32,8 @@
             </div>
           </div>
         </div>
-      </div>
+      </div>-->
+      <!--
       <div class="col-md-6"> <br>
         <div style="text-align:center">
           <span style="font-size:5em" class="gold glyphicon glyphicon-pencil" aria-hidden="true"></span>
@@ -71,19 +73,21 @@
           </div>
         </div>
       </div>
-    </div>
+    </div>-->
 
-    <h3>Alternatively...</h3>
-    <div class="input-group input-group-lg">
+    <!--<h3>Alternatively...</h3>-->
+    <div class="input-group input-group-lg" ng-init="search.minGrade='0';search.maxGrade = '912'">
       <span class="input-group-addon" id="sizing-addon1">By textbook...</span>
-      <input id="project" type="text" class="form-control" placeholder="eg. Raz's Balloons" aria-describedby="sizing-addon1" ng-model= "search.searchName" ng-keypress = "enterPressName($event, search, show)">
+      <input id="project" type="text" class="form-control" placeholder="Textbook" aria-describedby="sizing-addon1" ng-model= "search.searchName" ng-keypress = "enterPressName($event, search, show)">
     </div>
     <br>
+    <!--
     <h3>Or...</h3>
     <div class="input-group input-group-lg">
       <span class="input-group-addon" id="sizing-addon1">By standard...</span>
       <input id="standard" type="text" class="form-control" placeholder="eg. MAFS.7.SP.1.1" aria-describedby="sizing-addon1" ng-model= "search.searchText" ng-keypress = "enterPressStandard($event, search, show)">
     </div>
+  -->
     <br>
     <br>
     <div class = "text-center"><button id="submit" type="submit" class="btn btn-warning btn-block" ng-click="show = true; find(search)" style="width:50%; margin-left:25%">Submit</button></div>

@@ -4,6 +4,7 @@ angular.module('projects').controller('list-ProjectsController' , ['$scope', '$s
 	function($scope, $stateParams, $location, Authentication, Projects ) {
 	    $scope.authentication = Authentication;
 
+
 	    // Find a list of Projects
 		$scope.find = function(search) {
       //$scope.projects = Projects.query(); 
@@ -13,9 +14,10 @@ angular.module('projects').controller('list-ProjectsController' , ['$scope', '$s
       //if none of the text based search parameters are put in then it first checks if thier is a subject
       //if there is put it in with the query if not, then just search by the min and max grade.
 
+      
       if(!search.minGrade) search.minGrade = '0';
       if(!search.maxGrade) search.maxGrade = '912';
-
+      
       if(search.searchName){
         $scope.projects = Projects.query({projectName:search.searchName});
       } else if(search.searchText) {
