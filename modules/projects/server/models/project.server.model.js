@@ -105,7 +105,7 @@ var ProjectSchema = new Schema({
 	},
 	isPublic: {
 		type: Boolean,
-		default: false
+		default: true
 	},
 	projAdmin:{
 		type: [Schema.ObjectId],

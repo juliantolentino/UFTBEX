@@ -103,7 +103,7 @@
  	{
  		if(req.query.projectName) {
  			Project.find().
- 			where('name').regex(new RegExp(req.query.projectName, 'i')).
+ 			where('author').regex(new RegExp(req.query.projectName, 'i')).
  			sort('-created').populate('user', 'displayName').
  			exec(function(err, projects) {
  				if (err) {
