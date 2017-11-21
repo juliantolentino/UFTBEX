@@ -110,46 +110,48 @@
                                   <a id="link" data-ui-sref="projects.view({projectId : prj._id})">
                                     <!-- Title is a hyperlink -->
                                       <h4 class="gold" style="font-size:20">
-                                      {{prj.name}}</h4>
+                                      {{prj.title}}</h4>
                                   </a>
                               </div>
                               <!-- Shows author, grade range, and rating -->
                               <div class="col-xs-6 col-md-3"><h5>
-                                  by <strong>{{prj.user.displayName}}</strong></h5></div>
+                                  Author: {{prj.author}}</h5></div>
                               <div class="col-xs-6 col-md-3"><h5>
-                                  For grades {{getGradeRange(prj.minGrade, prj.maxGrade)}}</h5></div>
-                              <div class="col-xs-3-offset-3 col-md-3">
-                                    <h5> Rating: <!-- Shows rounded number of stars -->
+                                  Posted by <strong>{{prj.user.displayName}}</strong></h5></div>
+                              
+                              <!--div class="col-xs-3-offset-3 col-md-3">
+                                    <h5> Rating:
                                         <div  class = "gold glyphicon glyphicon-star"
                                               style="font-size:1em"
                                               ng-repeat="n in range(1,prj.rating.avg_rating,1)">
                                         </div> {{noRatingCheck(prj.rating.avg_rating)}}
                                     </h5>
-                              </div>
+                              </div-->
                       </div>
                 </div>
 
                 <div class="panel-body">
                       <div class="row">
                         <!-- Shows project summary as 2/3 of the panel width-->
-                          <div class="col-md-8">
+                          <div class="col-md-12">
                               <div class="panel panel-default">
                                     <div class="panel-body">
-                                        <h4> Summary </h4>
-                                        <p> {{prj.ask.goal}} </p>
+                                        <h4> Price: ${{prj.price}} </h4>
+                                        <p> Condition: {{prj.condition}}</p>
+                                    </div>
+                              </div>
+                          </div>
+                          <!--div class="col-md-8">
+                              <div class="panel panel-default">
+                                    <div class="panel-body">
+                                        <h4> </h4>
+                                        <p> </p>
                                     </div>
                               </div>
 
-                          </div>
+                          </div-->
                           <!-- Shows standards met as 2/3 of the panel width-->
-                          <div class="col-md-4">
-                              <div class="panel panel-default">
-                                    <div class="panel-body">
-                                        <h4> Standards Fulfilled </h4>
-                                        <p> {{prj.essentialDetails.overallStandards}} </p>
-                                    </div>
-                              </div>
-                          </div>
+                          
                       </div>
 
 
