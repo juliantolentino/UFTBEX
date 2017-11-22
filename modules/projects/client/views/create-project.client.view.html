@@ -4,64 +4,67 @@
       <div class="col-sm-7  col-md-8 main">
         <div class="panel panel-blue">
           <div class="panel-heading">
-            <div style="font-size:2em; display: block;" class="sub-header">Create Textbook Listing                       
+            <div style="font-size:2em; display: block;" class="sub-header">Create Textbook Listing               
             </div>
           </div>
           <div class="panel-body">
-            <div class="form-group">
-              <p>Title:</p>
-              <input type="text" class="input-group form-control" placeholder="Title" data-ng-model="title">
-            </div>
-            <div class="form-group">
-              <p>Author:</p>
-              <input type="text" class="input-group form-control" placeholder="Author" data-ng-model="author">
-            </div>
-            <div class="form-group">
-              <p>ISBN:</p>
-              <input type="text" class="input-group form-control" placeholder="ISBN" data-ng-model="isbn">
-            </div>
-            <div class="form-group">
-              <p>Condition:</p>
-              <input type="text" class="input-group form-control" placeholder="Condition" data-ng-model="condition">
-            </div>
-            <div class="form-group">
-              <p>Contact Information:</p>
-              <input type="text" class="input-group form-control" placeholder="Contact Information" data-ng-model="contactInformation">
-            </div>
-            <div class="form-group">
-              <p>Edition:</p>
-              <input type="text" class="input-group form-control" placeholder="Edition" data-ng-model="edition">
-            </div>
-            <div class="form-group">
-              <p>Instructor:</p>
-              <input type="text" class="input-group form-control" placeholder="Instructor" data-ng-model="instructor">
-            </div>
-            <div class="form-group">
-              <p>Location:</p>
-              <input type="text" class="input-group form-control" placeholder="Location" data-ng-model="location">
-            </div>
-            <div class="form-group">
-              <p>Price:</p>
-              <input type="number" class="input-group form-control" placeholder="Price" data-ng-model="price">
-            </div>
-            <div class="form-group">
-              <p>Required?:</p>
-              <input type="text" class="input-group form-control" placeholder="Required?" data-ng-model="required">
-            </div>
-            <!-- An absolutely horrible way to solve the bottom problem -->
-            <span data-ng-init="essentialDetails.mathDetails.subjectName = 'Mathematics'"></span>
-            <span data-ng-init="essentialDetails.scienceDetails.subjectName = 'Science'"></span>
-            <span data-ng-init="essentialDetails.litDetails.subjectName = 'Literature'"></span>
-            <span data-ng-init="essentialDetails.ssDetails.subjectName = 'SocialStudies'"></span>
-            <!-- An absolutely horrible way to solve the bottom problem -->
-            <div class="row">
-              <div class="col-md-4 ">
-                <button type="button" class="btn btn-success btn-block btn-lg" data-ng-click="status = 'Active'; create();">Submit</button>
+            <form name="myForm">
+              <div class="form-group">
+                <p style="color:#B22222">Title*:</p>
+                <input type="text" class="input-group form-control" placeholder="Title" data-ng-model="title" required>
               </div>
-              <div class="col-md-4 ">
-                <button id="save" type="button" class="btn btn-primary btn-block btn-lg" data-ng-click="status = 'In Progress'; create()";>Save Draft</button>
+              <div class="form-group">
+                <p>Author:</p>
+                <input type="text" class="input-group form-control" placeholder="Author" data-ng-model="author">
               </div>
-            </div>
+              <div class="form-group">
+                <p>ISBN:</p>
+                <input type="text" class="input-group form-control" placeholder="ISBN" data-ng-model="isbn">
+              </div>
+              <div class="form-group">
+                <p>Condition:</p>
+                <input type="text" class="input-group form-control" placeholder="Condition" data-ng-model="condition">
+              </div>
+              <div class="form-group">
+                <p>Contact Information:</p>
+                <input type="text" class="input-group form-control" placeholder="Contact Information" data-ng-model="contactInformation">
+              </div>
+              <div class="form-group">
+                <p>Edition:</p>
+                <input type="text" class="input-group form-control" placeholder="Edition" data-ng-model="edition">
+              </div>
+              <div class="form-group">
+                <p>Instructor:</p>
+                <input type="text" class="input-group form-control" placeholder="Instructor" data-ng-model="instructor">
+              </div>
+              <div class="form-group">
+                <p>Location:</p>
+                <input type="text" class="input-group form-control" placeholder="Location" data-ng-model="location">
+              </div>
+              <div class="form-group">
+                <p style="color:#B22222">Price*:</p>
+                <input type="number" class="input-group form-control" placeholder="Price" data-ng-model="price">
+              </div>
+              <div class="form-group">
+                <p>Required?:</p>
+                <input type="text" class="input-group form-control" placeholder="Required?" data-ng-model="required">
+              </div>
+              <span data-ng-init="essentialDetails.mathDetails.subjectName = 'Mathematics'"></span>
+              <span data-ng-init="essentialDetails.scienceDetails.subjectName = 'Science'"></span>
+              <span data-ng-init="essentialDetails.litDetails.subjectName = 'Literature'"></span>
+              <span data-ng-init="essentialDetails.ssDetails.subjectName = 'SocialStudies'"></span>
+              <!-- An absolutely horrible way to solve the bottom problem -->
+              <div class="row">
+                <div class="col-md-4 ">
+                  <button type="button" class="btn btn-success btn-block btn-lg" data-ng-click="status = 'Active'; create();" ng-disabled="title==undefined ||  title=='' || price==undefined || price==''">Submit</button>
+                </div>
+                <div class="col-md-4 ">
+                  <button id="save" type="button" class="btn btn-primary btn-block btn-lg" data-ng-click="status = 'In Progress'; create()" ;>Save Draft</button>
+                </div>
+              </div>
+            </form>
+            <!-- An absolutely horrible way to solve the bottom problem -->
+            
           </div>
         </div>
       </div>

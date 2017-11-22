@@ -70,7 +70,7 @@ var ProjectSchema = new Schema({
 		default: '',
 	},
 	price: {
-		type:String,
+		type:Number,
 		default: '',
 	},
 	required: {

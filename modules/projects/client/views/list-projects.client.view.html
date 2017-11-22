@@ -77,8 +77,26 @@
 
     <!--<h3>Alternatively...</h3>-->
     <div class="input-group input-group-lg" ng-init="search.minGrade='0';search.maxGrade = '912'">
-      <span class="input-group-addon" id="sizing-addon1">By textbook...</span>
-      <input id="project" type="text" class="form-control" placeholder="Textbook" aria-describedby="sizing-addon1" ng-model= "search.searchName" ng-keypress = "enterPressName($event, search, show)">
+      <span class="input-group-addon" id="sizing-addon1">
+        <select style="height:25px" ng-model="myDropDown">
+                  <option value="">Select filter...</option>
+                  <option value="textbook">Textbook</option>
+                  <option value="author">Author</option>
+                  <option value="course">Course</option>
+                  <option value="instructor">Instructor</option>
+                  <option value="price">Price</option>
+
+        </select>
+      </span>
+        
+      <input ng-show="showHideFieldTextbook()" id="project" type="text" class="form-control" placeholder="Textbook" aria-describedby="sizing-addon1" ng-model= "search.searchName" 
+      ng-keypress = "enterPressName($event, search, show)">
+      <input ng-show="showHideFieldAuthor()" id="project" type="text" class="form-control" placeholder="Author" aria-describedby="sizing-addon1" ng-model= "search.searchAuthor" ng-keypress = "enterPressAuthor($event, search, show)">
+      <input ng-show="showHideFieldCourse()" id="project" type="text" class="form-control" placeholder="Course" aria-describedby="sizing-addon1" ng-model= "search.searchCourse" ng-keypress = "enterPressCourse($event, search, show)">
+      <input ng-show="showHideFieldInstructor()" id="project" type="text" class="form-control" placeholder="Instructor" aria-describedby="sizing-addon1" ng-model= "search.searchInstructor" ng-keypress = "enterPressInstructor($event, search, show)">
+      <input ng-show="showHideFieldPrice()" id="project" type="number" class="form-control" placeholder="Min" aria-describedby="sizing-addon1" ng-model= "search.minPrice" ng-keypress = "enterPressPrice($event, search, show)">
+      <input ng-show="showHideFieldPrice()" id="project" type="number" class="form-control" placeholder="Max" aria-describedby="sizing-addon1" ng-model= "search.maxPrice" ng-keypress = "enterPressPrice($event, search, show)">
+
     </div>
     <br>
     <!--
