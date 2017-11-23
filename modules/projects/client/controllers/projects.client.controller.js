@@ -231,6 +231,7 @@ angular.module('projects').controller('ProjectsController', ['$scope', '$statePa
 				location: this.location,
 				price: this.price,
 				required: this.required,
+				url: this.url,
 				name: this.name,
 				created: this.created,
 				user: this.user,

@@ -77,6 +77,10 @@ var ProjectSchema = new Schema({
 		type:String,
 		default: '',
 	},
+	url: {
+		type:String,
+		default: '',
+	},
 	name: {
 		type: String,
 		default: '',

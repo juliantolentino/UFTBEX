@@ -7,6 +7,15 @@
 */
 /* Size + header  CSS*/
 
+.logo {
+  text-align: center;
+}
+.logo img {
+  width: 50%;
+  padding: 10px;
+
+}
+
 .popover{
     max-width: 400px;
 }
