@@ -8,33 +8,44 @@
               </div>
             </div>
             <div class="panel-body">
-                <div>
-                    Title:
-                    <h4 class="input-group form-control"> {{project.title}}</h4>
-                    Author: 
-                    <h4 class="input-group form-control">{{project.author}}</h4>
-                    ISBN: 
-                    <h4 class="input-group form-control">{{project.isbn}}</h4>
-                    Condition: 
-                    <h4 class="input-group form-control">{{project.condition}}</h4>
-                    Contact Information: 
-                    <h4 class="input-group form-control">{{project.contactInformation}}</h4>
-                    Edition: 
-                    <h4 class="input-group form-control">{{project.edition}}</h4>
-                    Instructor: 
-                    <h4 class="input-group form-control">{{project.instructor}}</h4>
-                    Location: 
-                    <h4 class="input-group form-control">{{project.location}}</h4>
-                    price: 
-                    <h4 class="input-group form-control">{{project.price}}</h4>
-                    Required: 
-                    <h4 class="input-group form-control">{{project.required}}</h4>
-                    Image: 
-                    <h4 class="input-group form-control">{{project.url}}</h4>
-                    <div class="logo">
+                <div class="row">
+                  <div class="col-sm-4">
+                    <div class="preview">
                       <img src={{project.url}}>
                     </div>
-                  </div>  
+                  </div>
+                  <div class="col-sm-8">
+                    <div>
+                        <h3>{{project.title}}</h4>
+                        <h4>{{project.author}}</h4>
+                        <u>Textbook Information</u>
+                        <div>ISBN: {{project.isbn}}</div>
+                        <div>Edition: {{project.edition}}</div>
+                        <div>Instructor: {{project.instructor}}</div>
+                        <div>Required: {{project.required}}</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th>Price</th>
+                        <th>Condition</th>
+                        <th>Location</th>
+                        <th>Contact</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>{{project.price}}</td>
+                        <td>{{project.condition}}</td>
+                        <td>{{project.location}}</td>
+                        <td><a ng-href="mailto:{{project.contactInformation}}">{{project.contactInformation}}</a></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
             </div>
         <br>
         <br>

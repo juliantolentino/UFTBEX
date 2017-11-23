@@ -6,6 +6,21 @@
 }
 */
 /* Size + header  CSS*/
+p { 
+  margin:0 
+  font-size: 5px;
+}
+
+th {
+    background-color: #bfbfbf;
+    font-size: 14px;
+
+}
+
+td {
+    border-color: #bfbfbf;
+    font-size: 14px;
+}
 
 .logo {
   text-align: center;
@@ -13,7 +28,11 @@
 .logo img {
   width: 50%;
   padding: 10px;
+}
 
+.preview img {
+  width: 100%;
+  padding: 5px;
 }
 
 .popover{
