@@ -9,7 +9,7 @@ angular.module('supports').run(['Menus',
 			state: 'support',
 			type: 'dropdown'
 		});
-		/*
+		
         Menus.addSubMenuItem('topbar', 'support', {
             title: 'Example',
 
@@ -26,7 +26,7 @@ angular.module('supports').run(['Menus',
         Menus.addSubMenuItem('topbar', 'support', {
             title: 'About Us',
             state: 'support.about'
-        });*/
+        });
 
 
 	}
