@@ -2,7 +2,7 @@
 THESE TESTS ARE OUT OF DATE WITH THE WEBSITE, LOOKS AT FAILED TESTS AND SEE IF RELEVENT
 ***************************************************************************************/
 // spec.js
-describe('issle Demo App', function() {
+describe('uftbex Demo App', function() {
     // Home page button test
    it('Home page button test', function() {
         browser.get('http://localhost:3000/');
@@ -12,7 +12,7 @@ describe('issle Demo App', function() {
 
    // See if in dev environment test
    it('See if in dev environment test', function() {
-       expect(browser.getTitle()).toEqual('issle - Development Environment');
+       expect(browser.getTitle()).toEqual('uftbex - Development Environment');
    });
 
     // Search for dance projects

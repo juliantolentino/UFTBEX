@@ -71,7 +71,7 @@ exports.changeProfilePicture = function (req, res) {
           }
         });
         // Concatenate URL to file name
-        user.profileImageURL = 'https://s3-us-west-2.amazonaws.com/isslepictures/ProfilePictures/' + req.files.file.name;
+        user.profileImageURL = 'https://s3-us-west-2.amazonaws.com/uftbexpictures/ProfilePictures/' + req.files.file.name;
 
         user.save(function (saveError) {
           if (saveError) {

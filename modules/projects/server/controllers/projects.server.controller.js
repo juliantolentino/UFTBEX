@@ -200,7 +200,7 @@ function regex_escape(str) {
 				 }
 			 });
 			 // Concatenate url onto image url
-			 project.worksheetStep.theWorksheet = 'https://s3-us-west-2.amazonaws.com/isslepictures/ProjectDrawings/' + req.files.file.name;
+			 project.worksheetStep.theWorksheet = 'https://s3-us-west-2.amazonaws.com/uftbexpictures/ProjectDrawings/' + req.files.file.name;
 			 console.log('updating pic');
 			 project.save(function(err) {
 				 if (err) {
