@@ -41,6 +41,10 @@ var ProjectSchema = new Schema({
 		type:String,
 		default: '',
 	},
+	course: {
+		type:String,
+		default: '',
+	},
 	author: {
 		type:String,
 		default: '',
