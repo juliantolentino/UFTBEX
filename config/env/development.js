@@ -15,7 +15,7 @@ module.exports = {
   imageServer: {
     key: 'AKIAIQIZVFFTPVUY66AQ',
     secret: '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',
-    bucket: 'isslepictures'
+    bucket: 'uftbexpictures'
   },
   log: {
     // Can specify one of 'combined', 'common', 'dev', 'short', 'tiny'
