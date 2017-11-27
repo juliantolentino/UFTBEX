@@ -6,6 +6,43 @@
 }
 */
 /* Size + header  CSS*/
+p { 
+  margin:0 
+  font-size: 5px;
+}
+
+th {
+    background-color: #bfbfbf;
+    font-size: 14px;
+
+}
+
+td {
+    border-color: #bfbfbf;
+    font-size: 14px;
+}
+
+.logo {
+  text-align: center;
+}
+.logo img {
+  width: 50%;
+  padding: 10px;
+}
+
+.listing img {
+  max-height: 320px;
+  display: block;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 80%;
+  padding: 5px;
+}
+
+.preview img {
+  width: 100%;
+  padding: 5px;
+}
 
 .popover{
     max-width: 400px;
@@ -150,14 +187,14 @@ li {
     padding-right: 20px;
 }
 .nav-sidebar > .active > a, .nav-sidebar > .active > a:hover, .nav-sidebar > .active > a:focus {
-    background-color: #64bed8;
+    background-color: #BFBFBF;
     color: #fff;
     padding-bottom: 0;
     padding-top: 2px;
     height: 40px;
 }
 a {
-    color: #64bed8;
+    color: #BFBFBF;
     text-decoration: none;
 }
 
@@ -184,14 +221,14 @@ a {
     font-size:5em;
 }
 .blue {
-    color: #64bed8;
+    color: #BFBFBF;
 }
 .gold {
     color: #fbc650;
 }
 .btn-blue{
-	border-color: #64bed8;
-	background-color: #64bed8;
+	border-color: #BFBFBF;
+	background-color: #BFBFBF;
 	color: #fff;
 }
 .btn-gold{
@@ -202,12 +239,12 @@ a {
 
 /* Panel CSS*/
 .panel-blue > .panel-heading {
-	border-color: #64bed8;
-	background-color: #64bed8;
+	border-color: #BFBFBF !important;
+	background-color: #BFBFBF !important;
 	color: #fff;
 }
 .panel-blue {
-	border-color: #64bed8;
+	border-color: #BFBFBF !important;
 }
 .panel-gold > .panel-heading {
 	border-color: #fbc650;
@@ -235,7 +272,7 @@ a {
 
 #listheader{
 	font-weight: 10;
-	color: #64bed8;
+	color: #BFBFBF;
 }
 
 /*Print Project CSS*/

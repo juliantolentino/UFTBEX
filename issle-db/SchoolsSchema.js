@@ -5,8 +5,13 @@ Schema = mongoose.Schema;
 /* Create your schema */
 var listingSchema = new Schema({
 	/* your code here */
-	school: String,
-	county: String,
+	isbn: String,
+    author: String,
+    course: String,
+    edition: String,
+    instructor: String,
+    required: Boolean,
+    title: String,
 	updated_at: Date,
 	created_at: Date
 });

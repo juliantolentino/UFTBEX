@@ -4,6 +4,7 @@ angular.module('projects').controller('list-ProjectsController' , ['$scope', '$s
 	function($scope, $stateParams, $location, Authentication, Projects ) {
 	    $scope.authentication = Authentication;
 
+
 	    // Find a list of Projects
 		$scope.find = function(search) {
       //$scope.projects = Projects.query(); 
@@ -13,19 +14,23 @@ angular.module('projects').controller('list-ProjectsController' , ['$scope', '$s
       //if none of the text based search parameters are put in then it first checks if thier is a subject
       //if there is put it in with the query if not, then just search by the min and max grade.
 
-      if(!search.minGrade) search.minGrade = '0';
-      if(!search.maxGrade) search.maxGrade = '912';
-
+      
+      if(!search.minPrice) search.minPrice = 0;
+      if(!search.maxPrice) search.maxPrice = 10000000000;
+      
       if(search.searchName){
         $scope.projects = Projects.query({projectName:search.searchName});
-      } else if(search.searchText) {
-        $scope.projects = Projects.query({benchmark:search.searchText});
-      } else if(search.subject) {
-        $scope.projects = Projects.query({minGrade:search.minGrade,maxGrade:search.maxGrade,subject:search.subject});
-      } else {
-        $scope.projects = Projects.query({minGrade:search.minGrade,maxGrade:search.maxGrade});
+      } else if(search.searchAuthor) {
+        $scope.projects = Projects.query({projectAuthor:search.searchAuthor});
+      }else if(search.searchCourse) {
+        $scope.projects = Projects.query({projectCourse:search.searchCourse});
+      }else if(search.searchInstructor) {
+        $scope.projects = Projects.query({projectInstructor:search.searchInstructor});
+      }else {
+        $scope.projects = Projects.query({minPrice:search.minPrice,maxPrice:search.maxPrice});
       }
       console.log(search);
+      // Set back to pristine.
 
     };
 
@@ -80,9 +85,37 @@ angular.module('projects').controller('list-ProjectsController' , ['$scope', '$s
       }
     };
 
+    $scope.enterPressAuthor = function(keyEvent, search, show) {
+      if(keyEvent.which === 13){
+        $scope.projects = Projects.query({projectAuthor:search.searchAuthor});
+        $scope.show = true;
+      }
+    };
+
+    $scope.enterPressCourse = function(keyEvent, search, show) {
+      if(keyEvent.which === 13){
+        $scope.projects = Projects.query({projectCourse:search.searchCourse});
+        $scope.show = true;
+      }
+    };
+
+    $scope.enterPressInstructor = function(keyEvent, search, show) {
+      if(keyEvent.which === 13){
+        $scope.projects = Projects.query({projectInstructor:search.searchInstructor});
+        $scope.show = true;
+      }
+    };
+
     $scope.enterPressStandard = function(keyEvent, search, show) {
       if(keyEvent.which === 13){
         $scope.projects = Projects.query({benchmark:search.searchText});
+        $scope.show = true;
+      }
+    };
+
+    $scope.enterPressPrice = function(keyEvent, search, show) {
+      if(keyEvent.which === 13){
+        $scope.projects = Projects.query({minPrice:search.minPrice,maxPrice:search.maxPrice});
         $scope.show = true;
       }
     };
@@ -99,5 +132,42 @@ angular.module('projects').controller('list-ProjectsController' , ['$scope', '$s
         return num;
       }
     };
+
+    $scope.showHideFieldTextbook = function(){
+      if($scope.myDropDown=='textbook'){
+          return true;
+      }
+      $scope.search.searchName= "";
+    }
+
+    $scope.showHideFieldAuthor = function(){
+      if($scope.myDropDown=='author'){
+          return true;
+      }
+      $scope.search.searchAuthor= "";
+    }
+
+    $scope.showHideFieldCourse = function(){
+      if($scope.myDropDown=='course'){
+          return true;
+      }
+      $scope.search.searchCourse= "";
+    }
+
+    $scope.showHideFieldInstructor = function(){
+      if($scope.myDropDown=='instructor'){
+          return true;
+      }
+      $scope.search.searchInstructor= "";
+    }
+
+    $scope.showHideFieldPrice= function(){
+      if($scope.myDropDown=='price'){
+          return true;
+      }
+      $scope.search.minPrice= '';
+      $scope.search.maxPrice= '';
+
+    }
 	}
 ]);

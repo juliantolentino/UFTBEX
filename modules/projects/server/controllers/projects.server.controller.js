@@ -75,6 +75,11 @@
 /**
  * List of Projects
  */
+
+function regex_escape(str) {
+    return str.replace(new RegExp('[.\\\\+*?\\[\\^\\]$(){}=!<>|:\\-]', 'g'), '\\$&');
+}
+
  exports.list = function(req, res) {
  	//this is where the search querries for search by projects are created
  	//the way the search works is by a hiarchy
@@ -103,7 +108,7 @@
  	{
  		if(req.query.projectName) {
  			Project.find().
- 			where('name').regex(new RegExp(req.query.projectName, 'i')).
+ 			where("title").regex(new RegExp(regex_escape(req.query.projectName), "i")).
  			sort('-created').populate('user', 'displayName').
  			exec(function(err, projects) {
  				if (err) {
@@ -114,9 +119,9 @@
  					res.jsonp(projects);
  				}
  			});
- 		} else if(req.query.benchmark) {
+ 		} else if(req.query.projectAuthor) {
  			Project.find().
- 			where('essentialDetails.overallStandards').regex(new RegExp(req.query.benchmark, 'i')).
+ 			where("author").regex(new RegExp(regex_escape(req.query.projectAuthor), "i")).
  			sort('-created').populate('user', 'displayName').
  			exec(function(err, projects) {
  				if (err) {
@@ -127,11 +132,22 @@
  					res.jsonp(projects);
  				}
  			});
- 		} else if(req.query.subject) {
+ 		} else if(req.query.projectCourse) {
  			Project.find().
- 			where('minGrade').gte(req.query.minGrade).
- 			where('maxGrade').lte(req.query.maxGrade).
- 			where('essentialDetails.overallSubjects').regex(new RegExp(req.query.subject,'i')).
+ 			where("course").regex(new RegExp(regex_escape(req.query.projectCourse), "i")).
+ 			sort('-created').populate('user', 'displayName').
+ 			exec(function(err, projects) {
+ 				if (err) {
+ 					return res.status(400).send({
+ 						message: errorHandler.getErrorMessage(err)
+ 					});
+ 				} else {
+ 					res.jsonp(projects);
+ 				}
+ 			});
+ 		} else if(req.query.projectInstructor) {
+ 			Project.find().
+ 			where("instructor").regex(new RegExp(regex_escape(req.query.projectInstructor), "i")).
  			sort('-created').populate('user', 'displayName').
  			exec(function(err, projects) {
  				if (err) {
@@ -144,8 +160,8 @@
  			});
  		} else {
  			Project.find().
- 			where('minGrade').gte(req.query.minGrade).
- 			where('maxGrade').lte(req.query.maxGrade).
+ 			where('price').gte(req.query.minPrice).
+ 			where('price').lte(req.query.maxPrice).
  			sort('-created').populate('user', 'displayName').
  			exec(function(err, projects) {
  				if (err) {

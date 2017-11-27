@@ -1,11 +1,49 @@
 'use strict';
 // Projects controller
 
-angular.module('projects').controller('ProjectsController', ['$scope', '$stateParams', '$sce', '$location', '$window', '$timeout', 'Authentication', 'Projects', 'FileUploader', 'linkify', 'Users',
-	function($scope, $stateParams, $sce, $location, $window, $timeout, Authentication, Projects, FileUploader, linkify , Users ) {
+angular.module('projects').controller('ProjectsController', ['$scope', '$stateParams', '$sce', '$location', '$window', '$timeout', 'Authentication', 'Projects', 'FileUploader', 'linkify', 'Users', 'Schools',
+	function($scope, $stateParams, $sce, $location, $window, $timeout, Authentication, Projects, FileUploader, linkify , Users, Schools ) {
 		$scope.authentication = Authentication;
 		$scope.collaborators = [];
+		$scope.books = Schools.query();
+		$scope.courseBook = '';
+		$scope.courseNum = '';
+		$scope.courseChange = function(){
 
+			$scope.bookFilter = Schools.query({course:$scope.courseNum.trim()});
+		};
+		$scope.autoFillBook = function(){
+			
+			Schools.query({title:$scope.courseBook}).$promise.then(function(myres){
+				$scope.fillBook = myres;
+				$scope.course = $scope.fillBook[0].course;
+				$scope.title = $scope.fillBook[0].title;
+				$scope.author = $scope.fillBook[0].author;
+				$scope.isbn = $scope.fillBook[0].isbn;
+				//$scope.condition = $scope.fillBook[0].condition;
+				//$scope.contactInformation = $scope.fillBook[0].contactInformation;
+				$scope.edition = $scope.fillBook[0].edition;
+				$scope.instructor = $scope.fillBook[0].instructor;
+				//$scope.location = $scope.fillBook[0].location;
+				//$scope.price = $scope.fillBook[0].price;
+				$scope.required = $scope.fillBook[0].required;
+				if($scope.required){
+					$scope.required = "Yes";
+				}
+				else{
+					$scope.required = "No";
+				}
+
+				
+			});
+
+
+			
+			
+			
+			
+		}
+		
 		//maybe should put in the create function
 		$scope.collaborators.push($scope.authentication.user._id);
 		// Create file uploader instance
@@ -221,6 +259,18 @@ angular.module('projects').controller('ProjectsController', ['$scope', '$statePa
 			
 
 			var project = new Projects ({
+				title: this.title,
+				course: this.course,
+				author: this.author,
+				isbn: this.isbn,
+				condition: this.condition,
+				contactInformation: this.contactInformation,
+				edition: this.edition,
+				instructor: this.instructor,
+				location: this.location,
+				price: this.price,
+				required: this.required,
+				url: this.url,
 				name: this.name,
 				created: this.created,
 				user: this.user,
@@ -245,7 +295,7 @@ angular.module('projects').controller('ProjectsController', ['$scope', '$statePa
 				improveStep: this.improveStep,
 				worksheetStep: this.worksheetStep,
 				essentialDetails: this.essentialDetails,
-				rating: null
+				rating: null,
 			});
 
 

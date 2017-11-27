@@ -37,10 +37,57 @@ var dragListSchema = new Schema({
  * Project Schema
  */
 var ProjectSchema = new Schema({
+	title: {
+		type:String,
+		default: '',
+	},
+	course: {
+		type:String,
+		default: '',
+	},
+	author: {
+		type:String,
+		default: '',
+	},
+	isbn: {
+		type:String,
+		default: '',
+	},
+	condition: {
+		type:String,
+		default: '',
+	},
+	contactInformation: {
+		type:String,
+		default: '',
+	},
+	edition: {
+		type:String,
+		default: '',
+	},
+	instructor: {
+		type:String,
+		default: '',
+	},
+	location: {
+		type:String,
+		default: '',
+	},
+	price: {
+		type:Number,
+		default: '',
+	},
+	required: {
+		type:String,
+		default: '',
+	},
+	url: {
+		type:String,
+		default: '',
+	},
 	name: {
 		type: String,
 		default: '',
-		required: 'Please fill Project name',
 		trim: true
 	},
 	created: {
@@ -66,7 +113,7 @@ var ProjectSchema = new Schema({
 	},
 	isPublic: {
 		type: Boolean,
-		default: false
+		default: true
 	},
 	projAdmin:{
 		type: [Schema.ObjectId],

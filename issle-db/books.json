@@ -1,0 +1,2113 @@
+  {
+    "author" : "ANDREW KOENIG & BARBARA E. MOO",
+    "course" : "COP 2271",
+    "edition" : "DOES NOT MATTER",
+    "instructor" : "Hill,Ira J",
+    "isbn" : "020170353X",
+    "required" : false,
+    "title" : "ACCELERATED C++: PRACTICAL PROGRAMMING BY EXAMPLE"
+  } {
+    "author" : "ANDREW KOENIG & BARBARA E. MOO",
+    "course" : "COP 2271",
+    "edition" : "DOES NOT MATTER",
+    "instructor" : "Hill,Ira J",
+    "isbn" : "020170353X",
+    "required" : false,
+    "title" : "ACCELERATED C++: PRACTICAL PROGRAMMING BY EXAMPLE"
+  } {
+    "course" : "COP 2271",
+    "instructor" : "Kirli,Serdar",
+    "required" : false
+  } {
+    "author" : "STORMY ATTAWAY",
+    "course" : "COP 2271",
+    "edition" : "DOES NOT MATTER",
+    "instructor" : "Hill,Ira J",
+    "isbn" : "0124058760",
+    "required" : false,
+    "title" : "MATLAB: A PRACTICAL INTRODUCTION TO PROGRAMMING AND PROBLEM SOLVING"
+  } {
+    "author" : "STORMY ATTAWAY",
+    "course" : "COP 2271",
+    "edition" : "DOES NOT MATTER",
+    "instructor" : "Hill,Ira J",
+    "isbn" : "0124058760",
+    "required" : false,
+    "title" : "MATLAB: A PRACTICAL INTRODUCTION TO PROGRAMMING AND PROBLEM SOLVING"
+  } {
+    "author" : "STORMY ATTAWAY",
+    "course" : "COP 2271L",
+    "edition" : "DOES NOT MATTER",
+    "instructor" : "Hill,Ira J",
+    "isbn" : "0124058760",
+    "required" : false,
+    "title" : "MATLAB: A PRACTICAL INTRODUCTION TO PROGRAMMING AND PROBLEM SOLVING"
+  } {
+    "author" : "STORMY ATTAWAY",
+    "course" : "COP 2271L",
+    "edition" : "DOES NOT MATTER",
+    "instructor" : "Hill,Ira J",
+    "isbn" : "0124058760",
+    "required" : false,
+    "title" : "MATLAB: A PRACTICAL INTRODUCTION TO PROGRAMMING AND PROBLEM SOLVING"
+  } {
+    "author" : "ANDREW KOENIG & BARBARA E. MOO",
+    "course" : "COP 2271L",
+    "edition" : "DOES NOT MATTER",
+    "instructor" : "Hill,Ira J",
+    "isbn" : "020170353X",
+    "required" : false,
+    "title" : "ACCELERATED C++: PRACTICAL PROGRAMMING BY EXAMPLE"
+  } {
+    "author" : "ANDREW KOENIG & BARBARA E. MOO",
+    "course" : "COP 2271L",
+    "edition" : "DOES NOT MATTER",
+    "instructor" : "Hill,Ira J",
+    "isbn" : "020170353X",
+    "required" : false,
+    "title" : "ACCELERATED C++: PRACTICAL PROGRAMMING BY EXAMPLE"
+  } {
+    "course" : "COP 2271L",
+    "instructor" : "Kirli,Serdar",
+    "required" : false
+  } {
+    "author" : "Y. DANIEL LIANG",
+    "course" : "COP 2800",
+    "edition" : "TENTH (10TH) ED",
+    "instructor" : "Matthews,Elizabeth A",
+    "isbn" : "9780133592207",
+    "required" : true,
+    "title" : "INTRODUCTION TO JAVA PROGRAMMING (BRIEF VERSION)"
+  } {
+    "author" : "STEPHEN G. KOCHAN",
+    "course" : "COP 3275",
+    "edition" : "4TH EDITION",
+    "instructor" : "Dobbins,Peter J",
+    "isbn" : "0321776410",
+    "required" : false,
+    "title" : "PROGRAMMING IN C"
+  } {
+    "author" : "STEPHEN G. KOCHAN",
+    "course" : "COP 3275",
+    "edition" : "4TH EDITION",
+    "instructor" : "Dobbins,Peter J",
+    "isbn" : "0321776410",
+    "required" : false,
+    "title" : "PROGRAMMING IN C"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "Y. DANIEL LIANG",
+    "course" : "COP 3502",
+    "edition" : "10TH",
+    "instructor" : "Alipour,Babak",
+    "isbn" : "9780133592207",
+    "required" : true,
+    "title" : "INTRODUCTION TO JAVA PROGRAMMING: BRIEF VERSION, 10TH EDITION"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "Y. DANIEL LIANG",
+    "course" : "COP 3502",
+    "edition" : "10TH",
+    "instructor" : "Alipour,Babak",
+    "isbn" : "9780133592207",
+    "required" : true,
+    "title" : "INTRODUCTION TO JAVA PROGRAMMING: BRIEF VERSION, 10TH EDITION"
+  } {
+    "author" : "Y. DANIEL LIANG",
+    "course" : "COP 3502",
+    "edition" : "10TH",
+    "instructor" : "Alipour,Babak",
+    "isbn" : "9780133592207",
+    "required" : true,
+    "title" : "INTRODUCTION TO JAVA PROGRAMMING: BRIEF VERSION, 10TH EDITION"
+  } {
+    "author" : "Y. DANIEL LIANG",
+    "course" : "COP 3502",
+    "edition" : "10TH",
+    "instructor" : "Alipour,Babak",
+    "isbn" : "9780133592207",
+    "required" : true,
+    "title" : "INTRODUCTION TO JAVA PROGRAMMING: BRIEF VERSION, 10TH EDITION"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "JOYCE FARRELL",
+    "course" : "COP 3502",
+    "edition" : "8TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "JAVA PROGRAMMING (INTERACTIVE)"
+  } {
+    "author" : "LIPPMAN, LAJOIE, & MOO",
+    "course" : "COP 3503",
+    "edition" : "5TH",
+    "instructor" : "Kavalan,Jonathan C L",
+    "isbn" : "0321714113",
+    "required" : true,
+    "title" : "C++ PRIMER"
+  } {
+    "author" : "LIPPMAN, LAJOIE, & MOO",
+    "course" : "COP 3503",
+    "edition" : "5TH",
+    "instructor" : "Kavalan,Jonathan C L",
+    "isbn" : "0321714113",
+    "required" : true,
+    "title" : "C++ PRIMER"
+  } {
+    "author" : "LIPPMAN, LAJOIE, & MOO",
+    "course" : "COP 3503",
+    "edition" : "5TH",
+    "instructor" : "Kavalan,Jonathan C L",
+    "isbn" : "0321714113",
+    "required" : true,
+    "title" : "C++ PRIMER"
+  } {
+    "author" : "LIPPMAN, LAJOIE, & MOO",
+    "course" : "COP 3503",
+    "edition" : "5TH",
+    "instructor" : "Kavalan,Jonathan C L",
+    "isbn" : "0321714113",
+    "required" : true,
+    "title" : "C++ PRIMER"
+  } {
+    "author" : "LIPPMAN, LAJOIE, & MOO",
+    "course" : "COP 3503",
+    "edition" : "5TH",
+    "instructor" : "Kavalan,Jonathan C L",
+    "isbn" : "0321714113",
+    "required" : true,
+    "title" : "C++ PRIMER"
+  } {
+    "author" : "LIPPMAN, LAJOIE, & MOO",
+    "course" : "COP 3503",
+    "edition" : "5TH",
+    "instructor" : "Kavalan,Jonathan C L",
+    "isbn" : "0321714113",
+    "required" : true,
+    "title" : "C++ PRIMER"
+  } {
+    "author" : "LIPPMAN, LAJOIE, & MOO",
+    "course" : "COP 3503",
+    "edition" : "5TH",
+    "instructor" : "Kavalan,Jonathan C L",
+    "isbn" : "0321714113",
+    "required" : true,
+    "title" : "C++ PRIMER"
+  } {
+    "author" : "LIPPMAN, LAJOIE, & MOO",
+    "course" : "COP 3503",
+    "edition" : "5TH",
+    "instructor" : "Kavalan,Jonathan C L",
+    "isbn" : "0321714113",
+    "required" : true,
+    "title" : "C++ PRIMER"
+  } {
+    "author" : "LIPPMAN, LAJOIE, & MOO",
+    "course" : "COP 3503",
+    "edition" : "5TH",
+    "instructor" : "Kavalan,Jonathan C L",
+    "isbn" : "0321714113",
+    "required" : true,
+    "title" : "C++ PRIMER"
+  } {
+    "author" : "LIPPMAN, LAJOIE, & MOO",
+    "course" : "COP 3503",
+    "edition" : "5TH",
+    "instructor" : "Kavalan,Jonathan C L",
+    "isbn" : "0321714113",
+    "required" : true,
+    "title" : "C++ PRIMER"
+  } {
+    "author" : "LIPPMAN, LAJOIE, & MOO",
+    "course" : "COP 3503",
+    "edition" : "5TH",
+    "instructor" : "Kavalan,Jonathan C L",
+    "isbn" : "0321714113",
+    "required" : true,
+    "title" : "C++ PRIMER"
+  } {
+    "author" : "VAHID, LYSECKY",
+    "course" : "COP 3503",
+    "edition" : "E-BOOK",
+    "instructor" : "Khaled,Ahmed Ezzeldin",
+    "isbn" : "",
+    "required" : true,
+    "title" : "ZYBOOK: PROGRAMMING IN C++"
+  } {
+    "author" : "LIPPMAN, LAJOIE, & MOO",
+    "course" : "COP 3503",
+    "edition" : "5TH",
+    "instructor" : "Kavalan,Jonathan C L",
+    "isbn" : "0321714113",
+    "required" : true,
+    "title" : "C++ PRIMER"
+  } {
+    "author" : "LIPPMAN, LAJOIE, & MOO",
+    "course" : "COP 3503",
+    "edition" : "5TH",
+    "instructor" : "Kavalan,Jonathan C L",
+    "isbn" : "0321714113",
+    "required" : true,
+    "title" : "C++ PRIMER"
+  } {
+    "author" : "LIPPMAN, LAJOIE, & MOO",
+    "course" : "COP 3503",
+    "edition" : "5TH",
+    "instructor" : "Kavalan,Jonathan C L",
+    "isbn" : "0321714113",
+    "required" : true,
+    "title" : "C++ PRIMER"
+  } {
+    "author" : "LIPPMAN, LAJOIE, & MOO",
+    "course" : "COP 3503",
+    "edition" : "5TH",
+    "instructor" : "Kavalan,Jonathan C L",
+    "isbn" : "0321714113",
+    "required" : true,
+    "title" : "C++ PRIMER"
+  } {
+    "author" : "LIPPMAN, LAJOIE, & MOO",
+    "course" : "COP 3530",
+    "edition" : "5",
+    "instructor" : "Small,David T",
+    "isbn" : "0321714113",
+    "required" : true,
+    "title" : "C++ PRIMER, 5E"
+  } {
+    "author" : "LIPPMAN, LAJOIE, & MOO",
+    "course" : "COP 3530",
+    "edition" : "5",
+    "instructor" : "Small,David T",
+    "isbn" : "0321714113",
+    "required" : true,
+    "title" : "C++ PRIMER, 5E"
+  } {
+    "author" : "LIPPMAN, LAJOIE, & MOO",
+    "course" : "COP 3530",
+    "edition" : "5",
+    "instructor" : "Small,David T",
+    "isbn" : "0321714113",
+    "required" : true,
+    "title" : "C++ PRIMER, 5E"
+  } {
+    "author" : "LIPPMAN, LAJOIE, & MOO",
+    "course" : "COP 3530",
+    "edition" : "5",
+    "instructor" : "Small,David T",
+    "isbn" : "0321714113",
+    "required" : true,
+    "title" : "C++ PRIMER, 5E"
+  } {
+    "author" : "LIPPMAN, LAJOIE, & MOO",
+    "course" : "COP 3530",
+    "edition" : "5",
+    "instructor" : "Small,David T",
+    "isbn" : "0321714113",
+    "required" : true,
+    "title" : "C++ PRIMER, 5E"
+  } {
+    "author" : "LIPPMAN, LAJOIE, & MOO",
+    "course" : "COP 3530",
+    "edition" : "5",
+    "instructor" : "Small,David T",
+    "isbn" : "0321714113",
+    "required" : true,
+    "title" : "C++ PRIMER, 5E"
+  } {
+    "author" : "LIPPMAN, LAJOIE, & MOO",
+    "course" : "COP 3530",
+    "edition" : "5",
+    "instructor" : "Small,David T",
+    "isbn" : "0321714113",
+    "required" : true,
+    "title" : "C++ PRIMER, 5E"
+  } {
+    "author" : "LIPPMAN, LAJOIE, & MOO",
+    "course" : "COP 3530",
+    "edition" : "5",
+    "instructor" : "Small,David T",
+    "isbn" : "0321714113",
+    "required" : true,
+    "title" : "C++ PRIMER, 5E"
+  } {
+    "author" : "LIPPMAN, LAJOIE, & MOO",
+    "course" : "COP 3530",
+    "edition" : "5",
+    "instructor" : "Small,David T",
+    "isbn" : "0321714113",
+    "required" : true,
+    "title" : "C++ PRIMER, 5E"
+  } {
+    "author" : "LIPPMAN, LAJOIE, & MOO",
+    "course" : "COP 3530",
+    "edition" : "5",
+    "instructor" : "Small,David T",
+    "isbn" : "0321714113",
+    "required" : true,
+    "title" : "C++ PRIMER, 5E"
+  } {
+    "author" : "LIPPMAN, LAJOIE, & MOO",
+    "course" : "COP 3530",
+    "edition" : "5",
+    "instructor" : "Small,David T",
+    "isbn" : "0321714113",
+    "required" : true,
+    "title" : "C++ PRIMER, 5E"
+  } {
+    "author" : "LIPPMAN, LAJOIE, & MOO",
+    "course" : "COP 3530",
+    "edition" : "5",
+    "instructor" : "Small,David T",
+    "isbn" : "0321714113",
+    "required" : true,
+    "title" : "C++ PRIMER, 5E"
+  } {
+    "author" : "ROMAN LYSECKY, FRANK VAHID",
+    "course" : "COP 3530",
+    "edition" : "1",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "DATA STRUCTURES ESSENTIALS"
+  } {
+    "author" : "ROMAN LYSECKY, FRANK VAHID",
+    "course" : "COP 3530",
+    "edition" : "1",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "",
+    "required" : true,
+    "title" : "DATA STRUCTURES ESSENTIALS"
+  } {
+    "author" : "LIPPMAN, LAJOIE, & MOO",
+    "course" : "COP 3530",
+    "edition" : "5",
+    "instructor" : "Small,David T",
+    "isbn" : "0321714113",
+    "required" : true,
+    "title" : "C++ PRIMER, 5E"
+  } {
+    "author" : "LIPPMAN, LAJOIE, & MOO",
+    "course" : "COP 3530",
+    "edition" : "5",
+    "instructor" : "Small,David T",
+    "isbn" : "0321714113",
+    "required" : true,
+    "title" : "C++ PRIMER, 5E"
+  } {
+    "author" : "LIPPMAN, LAJOIE, & MOO",
+    "course" : "COP 3530",
+    "edition" : "5",
+    "instructor" : "Small,David T",
+    "isbn" : "0321714113",
+    "required" : true,
+    "title" : "C++ PRIMER, 5E"
+  } {
+    "author" : "LIPPMAN, LAJOIE, & MOO",
+    "course" : "COP 3530",
+    "edition" : "5",
+    "instructor" : "Small,David T",
+    "isbn" : "0321714113",
+    "required" : true,
+    "title" : "C++ PRIMER, 5E"
+  } {
+    "author" : "LIPPMAN, LAJOIE, & MOO",
+    "course" : "COP 3530",
+    "edition" : "5",
+    "instructor" : "Small,David T",
+    "isbn" : "0321714113",
+    "required" : true,
+    "title" : "C++ PRIMER, 5E"
+  } {
+    "author" : "LIPPMAN, LAJOIE, & MOO",
+    "course" : "COP 3530",
+    "edition" : "5",
+    "instructor" : "Small,David T",
+    "isbn" : "0321714113",
+    "required" : true,
+    "title" : "C++ PRIMER, 5E"
+  } {
+    "author" : "LIPPMAN, LAJOIE, & MOO",
+    "course" : "COP 3530",
+    "edition" : "5",
+    "instructor" : "Small,David T",
+    "isbn" : "0321714113",
+    "required" : true,
+    "title" : "C++ PRIMER, 5E"
+  } {
+    "author" : "LIPPMAN, LAJOIE, & MOO",
+    "course" : "COP 3530",
+    "edition" : "5",
+    "instructor" : "Small,David T",
+    "isbn" : "0321714113",
+    "required" : true,
+    "title" : "C++ PRIMER, 5E"
+  } {
+    "author" : "LIPPMAN, LAJOIE, & MOO",
+    "course" : "COP 3530",
+    "edition" : "5",
+    "instructor" : "Small,David T",
+    "isbn" : "0321714113",
+    "required" : true,
+    "title" : "C++ PRIMER, 5E"
+  } {
+    "author" : "LIPPMAN, LAJOIE, & MOO",
+    "course" : "COP 3530",
+    "edition" : "5",
+    "instructor" : "Small,David T",
+    "isbn" : "0321714113",
+    "required" : true,
+    "title" : "C++ PRIMER, 5E"
+  } {
+    "author" : "LIPPMAN, LAJOIE, & MOO",
+    "course" : "COP 3530",
+    "edition" : "5",
+    "instructor" : "Small,David T",
+    "isbn" : "0321714113",
+    "required" : true,
+    "title" : "C++ PRIMER, 5E"
+  } {
+    "author" : "LIPPMAN, LAJOIE, & MOO",
+    "course" : "COP 3530",
+    "edition" : "5",
+    "instructor" : "Small,David T",
+    "isbn" : "0321714113",
+    "required" : true,
+    "title" : "C++ PRIMER, 5E"
+  } {
+    "author" : "MICHAEL SCOTT",
+    "course" : "COP 4020",
+    "edition" : "4",
+    "instructor" : "Bermudez,Manuel E",
+    "isbn" : "9780124104099",
+    "required" : false,
+    "title" : "PROGRAMMING LANGUAGE PRAGMATICS"
+  } {
+    "author" : "TANENBAUM & BOS",
+    "course" : "COP 4600",
+    "edition" : "4TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "9780133592221",
+    "required" : true,
+    "title" : "MODERN OPERATING SYSTEMS"
+  } {
+    "author" : "TANENBAUM & BOS",
+    "course" : "COP 4600",
+    "edition" : "4TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "9780133592221",
+    "required" : true,
+    "title" : "MODERN OPERATING SYSTEMS"
+  } {
+    "author" : "TANENBAUM & BOS",
+    "course" : "COP 4600",
+    "edition" : "4TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "9780133592221",
+    "required" : true,
+    "title" : "MODERN OPERATING SYSTEMS"
+  } {
+    "author" : "TANENBAUM & BOS",
+    "course" : "COP 4600",
+    "edition" : "4TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "9780133592221",
+    "required" : true,
+    "title" : "MODERN OPERATING SYSTEMS"
+  } {
+    "author" : "TANENBAUM & BOS",
+    "course" : "COP 4600",
+    "edition" : "4TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "9780133592221",
+    "required" : true,
+    "title" : "MODERN OPERATING SYSTEMS"
+  } {
+    "author" : "TANENBAUM & BOS",
+    "course" : "COP 4600",
+    "edition" : "4TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "9780133592221",
+    "required" : true,
+    "title" : "MODERN OPERATING SYSTEMS"
+  } {
+    "author" : "TANENBAUM & BOS",
+    "course" : "COP 4600",
+    "edition" : "4TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "9780133592221",
+    "required" : true,
+    "title" : "MODERN OPERATING SYSTEMS"
+  } {
+    "author" : "TANENBAUM & BOS",
+    "course" : "COP 4600",
+    "edition" : "4TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "9780133592221",
+    "required" : true,
+    "title" : "MODERN OPERATING SYSTEMS"
+  } {
+    "author" : "TANENBAUM & BOS",
+    "course" : "COP 4600",
+    "edition" : "4TH",
+    "instructor" : "Blanchard,Jeremiah J",
+    "isbn" : "9780133592221",
+    "required" : true,
+    "title" : "MODERN OPERATING SYSTEMS"
+  } {
+    "course" : "COP 4600",
+    "instructor" : "Blanchard,Jeremiah J",
+    "required" : false
+  } {
+    "author" : "TANENBAUM AND WOODHULL",
+    "course" : "COP 4600",
+    "edition" : "3RD",
+    "instructor" : "Newman,Richard E",
+    "isbn" : "9780131429383",
+    "required" : false,
+    "title" : "OPERATING SYSTEMS DESIGN AND IMPLEMENTATION"
+  } {
+    "author" : "TANENBAUM AND WOODHULL",
+    "course" : "COP 4600",
+    "edition" : "3RD",
+    "instructor" : "Newman,Richard E",
+    "isbn" : "9780131429383",
+    "required" : false,
+    "title" : "OPERATING SYSTEMS DESIGN AND IMPLEMENTATION"
+  } {
+    "author" : "TANENBAUM AND WOODHULL",
+    "course" : "COP 4600",
+    "edition" : "3RD",
+    "instructor" : "Newman,Richard E",
+    "isbn" : "9780131429383",
+    "required" : false,
+    "title" : "OPERATING SYSTEMS DESIGN AND IMPLEMENTATION"
+  } {
+    "author" : "TANENBAUM AND WOODHULL",
+    "course" : "COP 4600",
+    "edition" : "3RD",
+    "instructor" : "Newman,Richard E",
+    "isbn" : "9780131429383",
+    "required" : false,
+    "title" : "OPERATING SYSTEMS DESIGN AND IMPLEMENTATION"
+  } {
+    "author" : "AHO, SETHI, ULLMAN",
+    "course" : "COP 4620",
+    "edition" : "",
+    "instructor" : "Bermudez,Manuel E",
+    "isbn" : "0201100886",
+    "required" : false,
+    "title" : "COMPILERS: PRINCIPLES, TECHNIQUES AND TOOLS"
+  } {
+    "course" : "COP 5536",
+    "instructor" : "Sahni,Sartaj Kumar",
+    "required" : false
+  } {
+    "course" : "COP 5536",
+    "instructor" : "Sahni,Sartaj Kumar",
+    "required" : false
+  } {
+    "course" : "COP 5536",
+    "instructor" : "Sahni,Sartaj Kumar",
+    "required" : false
+  } {
+    "course" : "COP 5536",
+    "instructor" : "Sahni,Sartaj Kumar",
+    "required" : false
+  } {
+    "author" : "MICHAEL SCOTT",
+    "course" : "COP 5556",
+    "edition" : "4",
+    "instructor" : "Sanders,Beverly A",
+    "isbn" : "9780124104099",
+    "required" : true,
+    "title" : "PROGRAMMING LANGUAGE PRAGMATICS"
+  } {
+    "author" : "MICHAEL SCOTT",
+    "course" : "COP 5556",
+    "edition" : "4",
+    "instructor" : "Sanders,Beverly A",
+    "isbn" : "9780124104099",
+    "required" : true,
+    "title" : "PROGRAMMING LANGUAGE PRAGMATICS"
+  } {
+    "author" : "MICHAEL SCOTT",
+    "course" : "COP 5556",
+    "edition" : "4",
+    "instructor" : "Sanders,Beverly A",
+    "isbn" : "9780124104099",
+    "required" : true,
+    "title" : "PROGRAMMING LANGUAGE PRAGMATICS"
+  } {
+    "author" : "MICHAEL SCOTT",
+    "course" : "COP 5556",
+    "edition" : "4",
+    "instructor" : "Sanders,Beverly A",
+    "isbn" : "9780124104099",
+    "required" : true,
+    "title" : "PROGRAMMING LANGUAGE PRAGMATICS"
+  } {
+    "author" : "ODERSKY",
+    "course" : "COP 5615",
+    "edition" : "2",
+    "instructor" : "Dobra,Alin Viorel",
+    "isbn" : "9780981531649",
+    "required" : false,
+    "title" : "PROGRAMMING IN SCALA"
+  } {
+    "author" : "ODERSKY",
+    "course" : "COP 5615",
+    "edition" : "2",
+    "instructor" : "Dobra,Alin Viorel",
+    "isbn" : "9780981531649",
+    "required" : false,
+    "title" : "PROGRAMMING IN SCALA"
+  } {
+    "author" : "ODERSKY",
+    "course" : "COP 5615",
+    "edition" : "2",
+    "instructor" : "Dobra,Alin Viorel",
+    "isbn" : "9780981531649",
+    "required" : false,
+    "title" : "PROGRAMMING IN SCALA"
+  } {
+    "author" : "KENNETH ROSEN",
+    "course" : "COT 3100",
+    "edition" : "7TH",
+    "instructor" : "Pan,Tianyi",
+    "isbn" : "0073383090",
+    "required" : true,
+    "title" : "DISCRETE MATHEMATICS AND ITS APPLICATIONS"
+  } {
+    "author" : "KENNETH ROSEN",
+    "course" : "COT 3100",
+    "edition" : "7TH",
+    "instructor" : "Pan,Tianyi",
+    "isbn" : "0073383090",
+    "required" : true,
+    "title" : "DISCRETE MATHEMATICS AND ITS APPLICATIONS"
+  } {
+    "author" : "KENNETH ROSEN",
+    "course" : "COT 3100",
+    "edition" : "7TH",
+    "instructor" : "Pan,Tianyi",
+    "isbn" : "0073383090",
+    "required" : true,
+    "title" : "DISCRETE MATHEMATICS AND ITS APPLICATIONS"
+  } {
+    "author" : "KENNETH ROSEN",
+    "course" : "COT 3100",
+    "edition" : "7TH",
+    "instructor" : "Ayaz,Eyup S",
+    "isbn" : "0073383090",
+    "required" : true,
+    "title" : "DISCRETE MATHEMATICS AND ITS APPLICATIONS"
+  } {
+    "author" : "KENNETH ROSEN",
+    "course" : "COT 3100",
+    "edition" : "7TH",
+    "instructor" : "Pan,Tianyi",
+    "isbn" : "0073383090",
+    "required" : true,
+    "title" : "DISCRETE MATHEMATICS AND ITS APPLICATIONS"
+  } {
+    "author" : "KENNETH ROSEN",
+    "course" : "COT 3100",
+    "edition" : "7TH",
+    "instructor" : "Pan,Tianyi",
+    "isbn" : "0073383090",
+    "required" : true,
+    "title" : "DISCRETE MATHEMATICS AND ITS APPLICATIONS"
+  } {
+    "author" : "CHAPRA",
+    "course" : "COT 3502",
+    "edition" : "ANY",
+    "instructor" : "Svoronos,Spyros A",
+    "isbn" : "0075612542",
+    "required" : false,
+    "title" : "NUMERICAL METHODS FOR ENGINEERS"
+  } {
+    "author" : "CHAPRA",
+    "course" : "COT 3502",
+    "edition" : "ANY",
+    "instructor" : "Svoronos,Spyros A",
+    "isbn" : "0075612542",
+    "required" : false,
+    "title" : "NUMERICAL METHODS FOR ENGINEERS"
+  } {
+    "author" : "JAMES F. EPPERSON",
+    "course" : "COT 4501",
+    "edition" : "1ST",
+    "instructor" : "Guan,Hang",
+    "isbn" : "0471316474",
+    "required" : false,
+    "title" : "AN INTRODUCTION TO NUMERICAL METHODS AND ANALYSIS"
+  } {
+    "author" : "JAMES F. EPPERSON",
+    "course" : "COT 4501",
+    "edition" : "1ST",
+    "instructor" : "Guan,Hang",
+    "isbn" : "0471316474",
+    "required" : false,
+    "title" : "AN INTRODUCTION TO NUMERICAL METHODS AND ANALYSIS"
+  } {
+    "author" : "JAMES F. EPPERSON",
+    "course" : "COT 4501",
+    "edition" : "1ST",
+    "instructor" : "Guan,Hang",
+    "isbn" : "0471316474",
+    "required" : false,
+    "title" : "AN INTRODUCTION TO NUMERICAL METHODS AND ANALYSIS"
+  } {
+    "author" : "JAMES F. EPPERSON",
+    "course" : "COT 4501",
+    "edition" : "1ST",
+    "instructor" : "Guan,Hang",
+    "isbn" : "0471316474",
+    "required" : false,
+    "title" : "AN INTRODUCTION TO NUMERICAL METHODS AND ANALYSIS"
+  } {
+    "author" : "CORMEN LEISERSON RIVEST STEIN",
+    "course" : "COT 5405",
+    "edition" : "THIRD",
+    "instructor" : "Ungor,Alper",
+    "isbn" : "0262033844",
+    "required" : true,
+    "title" : "INTRODUCTION TO ALGORITHMS"
+  } {
+    "author" : "CORMEN LEISERSON RIVEST STEIN",
+    "course" : "COT 5405",
+    "edition" : "THIRD",
+    "instructor" : "Ungor,Alper",
+    "isbn" : "0262033844",
+    "required" : true,
+    "title" : "INTRODUCTION TO ALGORITHMS"
+  } {
+    "author" : "CORMEN LEISERSON RIVEST STEIN",
+    "course" : "COT 5405",
+    "edition" : "THIRD",
+    "instructor" : "Ungor,Alper",
+    "isbn" : "0262033844",
+    "required" : true,
+    "title" : "INTRODUCTION TO ALGORITHMS"
+  } {
+    "author" : "CORMEN LEISERSON RIVEST STEIN",
+    "course" : "COT 5405",
+    "edition" : "THIRD",
+    "instructor" : "Ungor,Alper",
+    "isbn" : "0262033844",
+    "required" : true,
+    "title" : "INTRODUCTION TO ALGORITHMS"
+  } {
+    "course" : "COT 5442",
+    "instructor" : "Thai,My Tra",
+    "required" : false
+  } {
+    "course" : "COT 5615",
+    "instructor" : "Gader,Paul D",
+    "required" : false
+  } {
+    "course" : "COT 5615",
+    "instructor" : "Gader,Paul D",
+    "required" : false
+  } {
+    "course" : "COT 5615",
+    "instructor" : "Gader,Paul D",
+    "required" : false
+  } {
+    "course" : "COT 5615",
+    "instructor" : "Gader,Paul D",
+    "required" : false
+  } {
+    "author" : "MICHAEL SIPSER",
+    "course" : "COT 6315",
+    "edition" : "LATEST",
+    "instructor" : "Sitharam,Meera",
+    "isbn" : "053494728X",
+    "required" : true,
+    "title" : "INTRODUCTION TO THE THEORY OF COMPUTATION"
+  } {
+    "author" : "JEFF DICKEY",
+    "course" : "CEN 3031",
+    "edition" : "1",
+    "instructor" : "Gardner-McCune,Christina",
+    "isbn" : "9780133930153",
+    "required" : false,
+    "title" : "WRITE MODERN WEB APPS WITH MEAN STACK"
+  } {
+    "author" : "JEFF DICKEY",
+    "course" : "CEN 3031",
+    "edition" : "1",
+    "instructor" : "Gardner-McCune,Christina",
+    "isbn" : "9780133930153",
+    "required" : false,
+    "title" : "WRITE MODERN WEB APPS WITH MEAN STACK"
+  } {
+    "author" : "JEFF DICKEY",
+    "course" : "CEN 3031",
+    "edition" : "1",
+    "instructor" : "Gardner-McCune,Christina",
+    "isbn" : "9780133930153",
+    "required" : false,
+    "title" : "WRITE MODERN WEB APPS WITH MEAN STACK"
+  } {
+    "author" : "JEFF DICKEY",
+    "course" : "CEN 3031",
+    "edition" : "1",
+    "instructor" : "Gardner-McCune,Christina",
+    "isbn" : "9780133930153",
+    "required" : false,
+    "title" : "WRITE MODERN WEB APPS WITH MEAN STACK"
+  } {
+    "author" : "JEFF DICKEY",
+    "course" : "CEN 3031",
+    "edition" : "1",
+    "instructor" : "Gardner-McCune,Christina",
+    "isbn" : "9780133930153",
+    "required" : false,
+    "title" : "WRITE MODERN WEB APPS WITH MEAN STACK"
+  } {
+    "author" : "JEFF DICKEY",
+    "course" : "CEN 3031",
+    "edition" : "1",
+    "instructor" : "Gardner-McCune,Christina",
+    "isbn" : "9780133930153",
+    "required" : false,
+    "title" : "WRITE MODERN WEB APPS WITH MEAN STACK"
+  } {
+    "author" : "JEFF DICKEY",
+    "course" : "CEN 3031",
+    "edition" : "1",
+    "instructor" : "Gardner-McCune,Christina",
+    "isbn" : "9780133930153",
+    "required" : false,
+    "title" : "WRITE MODERN WEB APPS WITH MEAN STACK"
+  } {
+    "author" : "JEFF DICKEY",
+    "course" : "CEN 3031",
+    "edition" : "1",
+    "instructor" : "Gardner-McCune,Christina",
+    "isbn" : "9780133930153",
+    "required" : false,
+    "title" : "WRITE MODERN WEB APPS WITH MEAN STACK"
+  } {
+    "author" : "JEFF DICKEY",
+    "course" : "CEN 3031",
+    "edition" : "1",
+    "instructor" : "Gardner-McCune,Christina",
+    "isbn" : "9780133930153",
+    "required" : false,
+    "title" : "WRITE MODERN WEB APPS WITH MEAN STACK"
+  } {
+    "author" : "JEFF DICKEY",
+    "course" : "CEN 3031",
+    "edition" : "1",
+    "instructor" : "Gardner-McCune,Christina",
+    "isbn" : "9780133930153",
+    "required" : false,
+    "title" : "WRITE MODERN WEB APPS WITH MEAN STACK"
+  } {
+    "author" : "JEFF DICKEY",
+    "course" : "CEN 3031",
+    "edition" : "1",
+    "instructor" : "Gardner-McCune,Christina",
+    "isbn" : "9780133930153",
+    "required" : false,
+    "title" : "WRITE MODERN WEB APPS WITH MEAN STACK"
+  } {
+    "author" : "JEFF DICKEY",
+    "course" : "CEN 3031",
+    "edition" : "1",
+    "instructor" : "Gardner-McCune,Christina",
+    "isbn" : "9780133930153",
+    "required" : false,
+    "title" : "WRITE MODERN WEB APPS WITH MEAN STACK"
+  } {
+    "author" : "JEFF DICKEY",
+    "course" : "CEN 3031",
+    "edition" : "1",
+    "instructor" : "Gardner-McCune,Christina",
+    "isbn" : "9780133930153",
+    "required" : false,
+    "title" : "WRITE MODERN WEB APPS WITH MEAN STACK"
+  } {
+    "author" : "JEFF DICKEY",
+    "course" : "CEN 3031",
+    "edition" : "1",
+    "instructor" : "Gardner-McCune,Christina",
+    "isbn" : "9780133930153",
+    "required" : false,
+    "title" : "WRITE MODERN WEB APPS WITH MEAN STACK"
+  } {
+    "author" : "JEFF DICKEY",
+    "course" : "CEN 3031",
+    "edition" : "1",
+    "instructor" : "Gardner-McCune,Christina",
+    "isbn" : "9780133930153",
+    "required" : false,
+    "title" : "WRITE MODERN WEB APPS WITH MEAN STACK"
+  } {
+    "author" : "JEFF DICKEY",
+    "course" : "CEN 3031",
+    "edition" : "1",
+    "instructor" : "Gardner-McCune,Christina",
+    "isbn" : "9780133930153",
+    "required" : false,
+    "title" : "WRITE MODERN WEB APPS WITH MEAN STACK"
+  } {
+    "author" : "JEFF DICKEY",
+    "course" : "CEN 3031",
+    "edition" : "1",
+    "instructor" : "Gardner-McCune,Christina",
+    "isbn" : "9780133930153",
+    "required" : false,
+    "title" : "WRITE MODERN WEB APPS WITH MEAN STACK"
+  } {
+    "author" : "JEFF DICKEY",
+    "course" : "CEN 3031",
+    "edition" : "1",
+    "instructor" : "Gardner-McCune,Christina",
+    "isbn" : "9780133930153",
+    "required" : false,
+    "title" : "WRITE MODERN WEB APPS WITH MEAN STACK"
+  } {
+    "author" : "JEFF DICKEY",
+    "course" : "CEN 3031",
+    "edition" : "1",
+    "instructor" : "Gardner-McCune,Christina",
+    "isbn" : "9780133930153",
+    "required" : false,
+    "title" : "WRITE MODERN WEB APPS WITH MEAN STACK"
+  } {
+    "author" : "JEFF DICKEY",
+    "course" : "CEN 3031",
+    "edition" : "1",
+    "instructor" : "Gardner-McCune,Christina",
+    "isbn" : "9780133930153",
+    "required" : false,
+    "title" : "WRITE MODERN WEB APPS WITH MEAN STACK"
+  } {
+    "author" : "JEFF DICKEY",
+    "course" : "CEN 3031",
+    "edition" : "1",
+    "instructor" : "Gardner-McCune,Christina",
+    "isbn" : "9780133930153",
+    "required" : false,
+    "title" : "WRITE MODERN WEB APPS WITH MEAN STACK"
+  } {
+    "author" : "JEFF DICKEY",
+    "course" : "CEN 3031",
+    "edition" : "1",
+    "instructor" : "Gardner-McCune,Christina",
+    "isbn" : "9780133930153",
+    "required" : false,
+    "title" : "WRITE MODERN WEB APPS WITH MEAN STACK"
+  } {
+    "author" : "JEFF DICKEY",
+    "course" : "CEN 3031",
+    "edition" : "1",
+    "instructor" : "Gardner-McCune,Christina",
+    "isbn" : "9780133930153",
+    "required" : false,
+    "title" : "WRITE MODERN WEB APPS WITH MEAN STACK"
+  } {
+    "author" : "JEFF DICKEY",
+    "course" : "CEN 3031",
+    "edition" : "1",
+    "instructor" : "Gardner-McCune,Christina",
+    "isbn" : "9780133930153",
+    "required" : false,
+    "title" : "WRITE MODERN WEB APPS WITH MEAN STACK"
+  } {
+    "author" : "JEFF DICKEY",
+    "course" : "CEN 3031",
+    "edition" : "1",
+    "instructor" : "Gardner-McCune,Christina",
+    "isbn" : "9780133930153",
+    "required" : false,
+    "title" : "WRITE MODERN WEB APPS WITH MEAN STACK"
+  } {
+    "author" : "JEFF DICKEY",
+    "course" : "CEN 3031",
+    "edition" : "1",
+    "instructor" : "Gardner-McCune,Christina",
+    "isbn" : "9780133930153",
+    "required" : false,
+    "title" : "WRITE MODERN WEB APPS WITH MEAN STACK"
+  } {
+    "author" : "JEFF DICKEY",
+    "course" : "CEN 3031",
+    "edition" : "1",
+    "instructor" : "Gardner-McCune,Christina",
+    "isbn" : "9780133930153",
+    "required" : false,
+    "title" : "WRITE MODERN WEB APPS WITH MEAN STACK"
+  } {
+    "author" : "JEFF DICKEY",
+    "course" : "CEN 3031",
+    "edition" : "1",
+    "instructor" : "Gardner-McCune,Christina",
+    "isbn" : "9780133930153",
+    "required" : false,
+    "title" : "WRITE MODERN WEB APPS WITH MEAN STACK"
+  } {
+    "author" : "JEFF DICKEY",
+    "course" : "CEN 3031",
+    "edition" : "1",
+    "instructor" : "Gardner-McCune,Christina",
+    "isbn" : "9780133930153",
+    "required" : false,
+    "title" : "WRITE MODERN WEB APPS WITH MEAN STACK"
+  } {
+    "author" : "JEFF DICKEY",
+    "course" : "CEN 3031",
+    "edition" : "1",
+    "instructor" : "Gardner-McCune,Christina",
+    "isbn" : "9780133930153",
+    "required" : false,
+    "title" : "WRITE MODERN WEB APPS WITH MEAN STACK"
+  } {
+    "author" : "JEFF DICKEY",
+    "course" : "CEN 3031",
+    "edition" : "1",
+    "instructor" : "Gardner-McCune,Christina",
+    "isbn" : "9780133930153",
+    "required" : false,
+    "title" : "WRITE MODERN WEB APPS WITH MEAN STACK"
+  } {
+    "author" : "JEFF DICKEY",
+    "course" : "CEN 3031",
+    "edition" : "1",
+    "instructor" : "Gardner-McCune,Christina",
+    "isbn" : "9780133930153",
+    "required" : false,
+    "title" : "WRITE MODERN WEB APPS WITH MEAN STACK"
+  } {
+    "author" : "JEFF DICKEY",
+    "course" : "CEN 3031",
+    "edition" : "1",
+    "instructor" : "Gardner-McCune,Christina",
+    "isbn" : "9780133930153",
+    "required" : false,
+    "title" : "WRITE MODERN WEB APPS WITH MEAN STACK"
+  } {
+    "author" : "JEFF DICKEY",
+    "course" : "CEN 3031",
+    "edition" : "1",
+    "instructor" : "Gardner-McCune,Christina",
+    "isbn" : "9780133930153",
+    "required" : false,
+    "title" : "WRITE MODERN WEB APPS WITH MEAN STACK"
+  } {
+    "author" : "JEFF DICKEY",
+    "course" : "CEN 3031",
+    "edition" : "1",
+    "instructor" : "Gardner-McCune,Christina",
+    "isbn" : "9780133930153",
+    "required" : false,
+    "title" : "WRITE MODERN WEB APPS WITH MEAN STACK"
+  } {
+    "author" : "JEFF DICKEY",
+    "course" : "CEN 3031",
+    "edition" : "1",
+    "instructor" : "Gardner-McCune,Christina",
+    "isbn" : "9780133930153",
+    "required" : false,
+    "title" : "WRITE MODERN WEB APPS WITH MEAN STACK"
+  } {
+    "author" : "JEFF DICKEY",
+    "course" : "CEN 3031",
+    "edition" : "1",
+    "instructor" : "Gardner-McCune,Christina",
+    "isbn" : "9780133930153",
+    "required" : false,
+    "title" : "WRITE MODERN WEB APPS WITH MEAN STACK"
+  } {
+    "author" : "JEFF DICKEY",
+    "course" : "CEN 3031",
+    "edition" : "1",
+    "instructor" : "Gardner-McCune,Christina",
+    "isbn" : "9780133930153",
+    "required" : false,
+    "title" : "WRITE MODERN WEB APPS WITH MEAN STACK"
+  } {
+    "author" : "JEFF DICKEY",
+    "course" : "CEN 3031",
+    "edition" : "1",
+    "instructor" : "Gardner-McCune,Christina",
+    "isbn" : "9780133930153",
+    "required" : false,
+    "title" : "WRITE MODERN WEB APPS WITH MEAN STACK"
+  } {
+    "author" : "JEFF DICKEY",
+    "course" : "CEN 3031",
+    "edition" : "1",
+    "instructor" : "Gardner-McCune,Christina",
+    "isbn" : "9780133930153",
+    "required" : false,
+    "title" : "WRITE MODERN WEB APPS WITH MEAN STACK"
+  } {
+    "author" : "JEFF DICKEY",
+    "course" : "CEN 3031",
+    "edition" : "1",
+    "instructor" : "Gardner-McCune,Christina",
+    "isbn" : "9780133930153",
+    "required" : false,
+    "title" : "WRITE MODERN WEB APPS WITH MEAN STACK"
+  } {
+    "author" : "JEFF DICKEY",
+    "course" : "CEN 3031",
+    "edition" : "1",
+    "instructor" : "Gardner-McCune,Christina",
+    "isbn" : "9780133930153",
+    "required" : false,
+    "title" : "WRITE MODERN WEB APPS WITH MEAN STACK"
+  } {
+    "author" : "JEFF DICKEY",
+    "course" : "CEN 3031",
+    "edition" : "1",
+    "instructor" : "Gardner-McCune,Christina",
+    "isbn" : "9780133930153",
+    "required" : false,
+    "title" : "WRITE MODERN WEB APPS WITH MEAN STACK"
+  } {
+    "author" : "JEFF DICKEY",
+    "course" : "CEN 3031",
+    "edition" : "1",
+    "instructor" : "Gardner-McCune,Christina",
+    "isbn" : "9780133930153",
+    "required" : false,
+    "title" : "WRITE MODERN WEB APPS WITH MEAN STACK"
+  } {
+    "author" : "JEFF DICKEY",
+    "course" : "CEN 3031",
+    "edition" : "1",
+    "instructor" : "Gardner-McCune,Christina",
+    "isbn" : "9780133930153",
+    "required" : false,
+    "title" : "WRITE MODERN WEB APPS WITH MEAN STACK"
+  } {
+    "author" : "JEFF DICKEY",
+    "course" : "CEN 3031",
+    "edition" : "1",
+    "instructor" : "Gardner-McCune,Christina",
+    "isbn" : "9780133930153",
+    "required" : false,
+    "title" : "WRITE MODERN WEB APPS WITH MEAN STACK"
+  } {
+    "author" : "JEFF DICKEY",
+    "course" : "CEN 3031",
+    "edition" : "1",
+    "instructor" : "Gardner-McCune,Christina",
+    "isbn" : "9780133930153",
+    "required" : false,
+    "title" : "WRITE MODERN WEB APPS WITH MEAN STACK"
+  } {
+    "author" : "JEFF DICKEY",
+    "course" : "CEN 3031",
+    "edition" : "1",
+    "instructor" : "Gardner-McCune,Christina",
+    "isbn" : "9780133930153",
+    "required" : false,
+    "title" : "WRITE MODERN WEB APPS WITH MEAN STACK"
+  } {
+    "course" : "CEN 3913",
+    "instructor" : "Schmalz,Mark S",
+    "required" : false
+  } {
+    "course" : "CEN 4722",
+    "instructor" : "Anthony,Lisa",
+    "required" : false
+  } {
+    "course" : "CEN 4914",
+    "instructor" : "Schmalz,Mark S",
+    "required" : false
+  } {
+    "author" : "SOMMERVILLE",
+    "course" : "CEN 5035",
+    "edition" : "10",
+    "instructor" : "Dobra,Alin Viorel",
+    "isbn" : "0133943038",
+    "required" : true,
+    "title" : "SOFTWARE ENGINEERING"
+  } {
+    "author" : "SOMMERVILLE",
+    "course" : "CEN 5035",
+    "edition" : "10",
+    "instructor" : "Dobra,Alin Viorel",
+    "isbn" : "0133943038",
+    "required" : true,
+    "title" : "SOFTWARE ENGINEERING"
+  } {
+    "author" : "SOMMERVILLE",
+    "course" : "CEN 5035",
+    "edition" : "10",
+    "instructor" : "Dobra,Alin Viorel",
+    "isbn" : "0133943038",
+    "required" : true,
+    "title" : "SOFTWARE ENGINEERING"
+  } {
+    "author" : "SOMMERVILLE",
+    "course" : "CEN 5035",
+    "edition" : "10",
+    "instructor" : "Dobra,Alin Viorel",
+    "isbn" : "0133943038",
+    "required" : true,
+    "title" : "SOFTWARE ENGINEERING"
+  } {
+    "course" : "CEN 5728",
+    "instructor" : "Anthony,Lisa",
+    "required" : false
+  } {
+    "author" : "JON ERICKSON",
+    "course" : "CIS 4204",
+    "edition" : "2ND",
+    "instructor" : "Wilson,Joseph N",
+    "isbn" : "9781593271442",
+    "required" : false,
+    "title" : "HACKING: THE ART OF EXPLOITATION"
+  } {
+    "author" : "JON ERICKSON",
+    "course" : "CIS 4204",
+    "edition" : "2ND",
+    "instructor" : "Wilson,Joseph N",
+    "isbn" : "9781593271442",
+    "required" : false,
+    "title" : "HACKING: THE ART OF EXPLOITATION"
+  } {
+    "author" : "JON ERICKSON",
+    "course" : "CIS 4204",
+    "edition" : "2ND",
+    "instructor" : "Wilson,Joseph N",
+    "isbn" : "9781593271442",
+    "required" : false,
+    "title" : "HACKING: THE ART OF EXPLOITATION"
+  } {
+    "author" : "JON ERICKSON",
+    "course" : "CIS 4204",
+    "edition" : "2ND",
+    "instructor" : "Wilson,Joseph N",
+    "isbn" : "9781593271442",
+    "required" : false,
+    "title" : "HACKING: THE ART OF EXPLOITATION"
+  } {
+    "author" : "GARCIA-MOLINA, ULLMAN, WIDOM",
+    "course" : "CIS 4301",
+    "edition" : "2ND",
+    "instructor" : "Dobra,Alin Viorel",
+    "isbn" : "0131873253",
+    "required" : false,
+    "title" : "DATABASE SYSTEMS: THE COMPLETE BOOK"
+  } {
+    "author" : "SILBERSCHATZ ET AL.",
+    "course" : "CIS 4301",
+    "edition" : "6TH",
+    "instructor" : "Schneider,Markus Paul",
+    "isbn" : "0073523321",
+    "required" : true,
+    "title" : "DATABASE SYSTEMS CONCEPTS, 6/E"
+  } {
+    "author" : "SILBERSCHATZ ET AL.",
+    "course" : "CIS 4301",
+    "edition" : "6TH",
+    "instructor" : "Schneider,Markus Paul",
+    "isbn" : "0073523321",
+    "required" : true,
+    "title" : "DATABASE SYSTEMS CONCEPTS, 6/E"
+  } {
+    "author" : "GARCIA-MOLINA, ULLMAN, WIDOM",
+    "course" : "CIS 4301",
+    "edition" : "2ND",
+    "instructor" : "Ruiz,Jaime",
+    "isbn" : "0131873253",
+    "required" : false,
+    "title" : "DATABASE SYSTEMS: THE COMPLETE BOOK"
+  } {
+    "course" : "CIS 4301",
+    "instructor" : "Dobra,Alin Viorel",
+    "required" : false
+  } {
+    "author" : "BISHOP",
+    "course" : "CIS 4360",
+    "edition" : "",
+    "instructor" : "Butler,Kevin",
+    "isbn" : "0201440997",
+    "required" : false,
+    "title" : "COMPUTER SECURITY"
+  } {
+    "author" : "BISHOP",
+    "course" : "CIS 4360",
+    "edition" : "",
+    "instructor" : "Butler,Kevin",
+    "isbn" : "0201440997",
+    "required" : false,
+    "title" : "COMPUTER SECURITY"
+  } {
+    "course" : "CIS 4360",
+    "instructor" : "Butler,Kevin",
+    "required" : false
+  } {
+    "author" : "KATZ & LINDELL",
+    "course" : "CIS 4362",
+    "edition" : "2ND",
+    "instructor" : "Newman,Richard E",
+    "isbn" : "9781466570269",
+    "required" : true,
+    "title" : "INTRODUCTION TO MODERN CRYPTOGRAPHY"
+  } {
+    "course" : "CIS 4905",
+    "instructor" : "Newman,Richard E",
+    "required" : false
+  } {
+    "author" : "ULRICH, K.T. AND EPPINGER, S.",
+    "course" : "CIS 4912C",
+    "edition" : "FOURTH OR LATER",
+    "instructor" : "Stanfill,R Keith",
+    "isbn" : "9780073101422",
+    "required" : false,
+    "title" : "PRODUCT DESIGN AND DEVELOPMENT"
+  } {
+    "course" : "CIS 4914",
+    "instructor" : "Schmalz,Mark S",
+    "required" : false
+  } {
+    "course" : "CIS 4914",
+    "instructor" : "Schmalz,Mark S",
+    "required" : false
+  } {
+    "author" : "CORMEN LEISERSON RIVEST STEIN",
+    "course" : "CIS 4930",
+    "edition" : "THIRD",
+    "instructor" : "Ungor,Alper",
+    "isbn" : "0262033844",
+    "required" : true,
+    "title" : "INTRODUCTION TO ALGORITHMS"
+  } {
+    "author" : "MARIE-HELEN MARAS",
+    "course" : "CIS 4930",
+    "edition" : "",
+    "instructor" : "Wilson,Joseph N; Rivera,Joseph W",
+    "isbn" : "9781449692223",
+    "required" : true,
+    "title" : "COMPUTER FORENSICS: CYBERCRIMINALS, LAWS, AND EVIDENCE"
+  } {
+    "course" : "CIS 4930",
+    "instructor" : "Lok,Benjamin",
+    "required" : false
+  } {
+    "course" : "CIS 4930",
+    "instructor" : "Peters,Jorg",
+    "required" : false
+  } {
+    "author" : "DANIEL JURAFSKY & JAMES H. MARTIN",
+    "course" : "CIS 4930",
+    "edition" : "2",
+    "instructor" : "Boyer,Kristy",
+    "isbn" : "9780133252934",
+    "required" : true,
+    "title" : "SPEECH AND LANGUAGE PROCESSING, 2ND EDITION"
+  } {
+    "author" : "GAMMA, HELM, JOHNSON, VLISSIDE",
+    "course" : "CIS 4930",
+    "edition" : "1",
+    "instructor" : "Small,David T",
+    "isbn" : "0201633612",
+    "required" : true,
+    "title" : "DESIGN PATTERNS: ELEMENTS OF REUSABLE OBJECT-ORIE"
+  } {
+    "author" : "MICHAEL SIPSER",
+    "course" : "CIS 4930",
+    "edition" : "LATEST",
+    "instructor" : "Sitharam,Meera",
+    "isbn" : "053494728X",
+    "required" : true,
+    "title" : "INTRODUCTION TO THE THEORY OF COMPUTATION"
+  } {
+    "course" : "CIS 4930",
+    "instructor" : "Sitharam,Meera",
+    "required" : false
+  } {
+    "course" : "CIS 4930",
+    "instructor" : "Ungor,Alper",
+    "required" : false
+  } {
+    "course" : "CIS 4940",
+    "instructor" : "Newman,Richard E",
+    "required" : false
+  } {
+    "course" : "CIS 4949",
+    "instructor" : "Newman,Richard E",
+    "required" : false
+  } {
+    "course" : "CIS 6905",
+    "instructor" : "Helmy,Ahmed Abdelghaffar",
+    "required" : false
+  } {
+    "course" : "CIS 6910",
+    "instructor" : "Helmy,Ahmed Abdelghaffar",
+    "required" : false
+  } {
+    "course" : "CIS 6930",
+    "instructor" : "",
+    "required" : false
+  } {
+    "course" : "CIS 6930",
+    "instructor" : "Lok,Benjamin",
+    "required" : false
+  } {
+    "course" : "CIS 6930",
+    "instructor" : "",
+    "required" : false
+  } {
+    "author" : "DANIEL JURAFSKY & JAMES H. MARTIN",
+    "course" : "CIS 6930",
+    "edition" : "2",
+    "instructor" : "Boyer,Kristy",
+    "isbn" : "9780133252934",
+    "required" : true,
+    "title" : "SPEECH AND LANGUAGE PROCESSING, 2ND EDITION"
+  } {
+    "course" : "CIS 6930",
+    "instructor" : "Ranka,Sanjay",
+    "required" : false
+  } {
+    "course" : "CIS 6930",
+    "instructor" : "Boucher,Christina A",
+    "required" : false
+  } {
+    "author" : "JON ERICKSON",
+    "course" : "CIS 6930",
+    "edition" : "2ND",
+    "instructor" : "Wilson,Joseph N",
+    "isbn" : "9781593271442",
+    "required" : false,
+    "title" : "HACKING: THE ART OF EXPLOITATION"
+  } {
+    "author" : "JON ERICKSON",
+    "course" : "CIS 6930",
+    "edition" : "2ND",
+    "instructor" : "Wilson,Joseph N",
+    "isbn" : "9781593271442",
+    "required" : false,
+    "title" : "HACKING: THE ART OF EXPLOITATION"
+  } {
+    "author" : "JON ERICKSON",
+    "course" : "CIS 6930",
+    "edition" : "2ND",
+    "instructor" : "Wilson,Joseph N",
+    "isbn" : "9781593271442",
+    "required" : false,
+    "title" : "HACKING: THE ART OF EXPLOITATION"
+  } {
+    "author" : "JON ERICKSON",
+    "course" : "CIS 6930",
+    "edition" : "2ND",
+    "instructor" : "Wilson,Joseph N",
+    "isbn" : "9781593271442",
+    "required" : false,
+    "title" : "HACKING: THE ART OF EXPLOITATION"
+  } {
+    "course" : "CIS 6930",
+    "instructor" : "Entezari,Alireza",
+    "required" : false
+  } {
+    "author" : "DAVID M BOURG",
+    "course" : "CIS 6930",
+    "edition" : "",
+    "instructor" : "Peters,Jorg",
+    "isbn" : "9781449392512",
+    "required" : false,
+    "title" : "PHYSICS FOR GAME DEVELOPERS: SCIENCE, MATH, AND CODE FOR REALISTIC EFFECTS"
+  } {
+    "course" : "CIS 6930",
+    "instructor" : "",
+    "required" : false
+  } {
+    "course" : "CIS 6935",
+    "instructor" : "Ungor,Alper",
+    "required" : false
+  } {
+    "course" : "CIS 6971",
+    "instructor" : "Helmy,Ahmed Abdelghaffar",
+    "required" : false
+  } {
+    "course" : "CIS 7979",
+    "instructor" : "Helmy,Ahmed Abdelghaffar",
+    "required" : false
+  } {
+    "course" : "CIS 7980",
+    "instructor" : "Helmy,Ahmed Abdelghaffar",
+    "required" : false
+  } {
+    "author" : "BRITTON",
+    "course" : "CDA 3101",
+    "edition" : "",
+    "instructor" : "Peir,Jihkwon",
+    "isbn" : "0131420445",
+    "required" : false,
+    "title" : "MIPS ASSEMBLY LANGUAGE PROGRAMMING"
+  } {
+    "author" : "BRITTON",
+    "course" : "CDA 3101",
+    "edition" : "",
+    "instructor" : "Peir,Jihkwon",
+    "isbn" : "0131420445",
+    "required" : false,
+    "title" : "MIPS ASSEMBLY LANGUAGE PROGRAMMING"
+  } {
+    "author" : "BRITTON",
+    "course" : "CDA 3101",
+    "edition" : "",
+    "instructor" : "Peir,Jihkwon",
+    "isbn" : "0131420445",
+    "required" : false,
+    "title" : "MIPS ASSEMBLY LANGUAGE PROGRAMMING"
+  } {
+    "author" : "BRITTON",
+    "course" : "CDA 3101",
+    "edition" : "",
+    "instructor" : "Peir,Jihkwon",
+    "isbn" : "0131420445",
+    "required" : false,
+    "title" : "MIPS ASSEMBLY LANGUAGE PROGRAMMING"
+  } {
+    "author" : "PATTERSON, HENNESSY",
+    "course" : "CDA 3101",
+    "edition" : "5TH",
+    "instructor" : "Ayaz,Eyup S",
+    "isbn" : "9780124077263",
+    "required" : true,
+    "title" : "COMPUTER ORGANIZATION AND DESIGN"
+  } {
+    "author" : "BRITTON",
+    "course" : "CDA 3101",
+    "edition" : "",
+    "instructor" : "Peir,Jihkwon",
+    "isbn" : "0131420445",
+    "required" : false,
+    "title" : "MIPS ASSEMBLY LANGUAGE PROGRAMMING"
+  } {
+    "author" : "BRITTON",
+    "course" : "CDA 3101",
+    "edition" : "",
+    "instructor" : "Peir,Jihkwon",
+    "isbn" : "0131420445",
+    "required" : false,
+    "title" : "MIPS ASSEMBLY LANGUAGE PROGRAMMING"
+  } {
+    "author" : "BRITTON",
+    "course" : "CDA 3101",
+    "edition" : "",
+    "instructor" : "Peir,Jihkwon",
+    "isbn" : "0131420445",
+    "required" : false,
+    "title" : "MIPS ASSEMBLY LANGUAGE PROGRAMMING"
+  } {
+    "author" : "BRITTON",
+    "course" : "CDA 3101",
+    "edition" : "",
+    "instructor" : "Peir,Jihkwon",
+    "isbn" : "0131420445",
+    "required" : false,
+    "title" : "MIPS ASSEMBLY LANGUAGE PROGRAMMING"
+  } {
+    "author" : "BRITTON",
+    "course" : "CDA 3101",
+    "edition" : "",
+    "instructor" : "Peir,Jihkwon",
+    "isbn" : "0131420445",
+    "required" : false,
+    "title" : "MIPS ASSEMBLY LANGUAGE PROGRAMMING"
+  } {
+    "author" : "BRITTON",
+    "course" : "CDA 3101",
+    "edition" : "",
+    "instructor" : "Peir,Jihkwon",
+    "isbn" : "0131420445",
+    "required" : false,
+    "title" : "MIPS ASSEMBLY LANGUAGE PROGRAMMING"
+  } {
+    "author" : "BRITTON",
+    "course" : "CDA 3101",
+    "edition" : "",
+    "instructor" : "Peir,Jihkwon",
+    "isbn" : "0131420445",
+    "required" : false,
+    "title" : "MIPS ASSEMBLY LANGUAGE PROGRAMMING"
+  } {
+    "author" : "BRITTON",
+    "course" : "CDA 3101",
+    "edition" : "",
+    "instructor" : "Peir,Jihkwon",
+    "isbn" : "0131420445",
+    "required" : false,
+    "title" : "MIPS ASSEMBLY LANGUAGE PROGRAMMING"
+  } {
+    "author" : "BRITTON",
+    "course" : "CDA 3101",
+    "edition" : "",
+    "instructor" : "Peir,Jihkwon",
+    "isbn" : "0131420445",
+    "required" : false,
+    "title" : "MIPS ASSEMBLY LANGUAGE PROGRAMMING"
+  } {
+    "author" : "BRITTON",
+    "course" : "CDA 3101",
+    "edition" : "",
+    "instructor" : "Peir,Jihkwon",
+    "isbn" : "0131420445",
+    "required" : false,
+    "title" : "MIPS ASSEMBLY LANGUAGE PROGRAMMING"
+  } {
+    "author" : "BRITTON",
+    "course" : "CDA 3101",
+    "edition" : "",
+    "instructor" : "Peir,Jihkwon",
+    "isbn" : "0131420445",
+    "required" : false,
+    "title" : "MIPS ASSEMBLY LANGUAGE PROGRAMMING"
+  } {
+    "author" : "BRITTON",
+    "course" : "CDA 3101",
+    "edition" : "",
+    "instructor" : "Peir,Jihkwon",
+    "isbn" : "0131420445",
+    "required" : false,
+    "title" : "MIPS ASSEMBLY LANGUAGE PROGRAMMING"
+  } {
+    "author" : "HENNESSY, PATTERSON",
+    "course" : "CDA 4102",
+    "edition" : "5",
+    "instructor" : "Peir,Jihkwon",
+    "isbn" : "9780123838728",
+    "required" : true,
+    "title" : "COMPUTER ARCHITECTURE: A QUANTITATIVE APPROACH"
+  } {
+    "author" : "HENNESSY, PATTERSON",
+    "course" : "CDA 5155",
+    "edition" : "5",
+    "instructor" : "Mishra,Prabhat Kumar",
+    "isbn" : "9780123838728",
+    "required" : true,
+    "title" : "COMPUTER ARCHITECTURE: A QUANTITATIVE APPROACH"
+  }

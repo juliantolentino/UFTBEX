@@ -54,7 +54,23 @@ exports.delete = function(req, res) {
 };
 
 exports.list = function(req, res) {
-  if(req.query.county){
+	if(req.query.title){
+	Schools.findOne().
+		where('title').equals(req.query.title).
+		exec(function(err, schools) {
+			if (err) {
+				return res.status(400).send({
+					message: errorHandler.getErrorMessage(err)
+				});
+			} else {
+				var myArr = [];
+				myArr.push(schools);
+				console.log(myArr);
+				res.jsonp(myArr);
+			}
+		});
+	}
+  else if(req.query.county){
 	Schools.find().
 		where('county').equals(req.query.county).
 		exec(function(err, schools) {
@@ -69,16 +85,31 @@ exports.list = function(req, res) {
 	});
   }
   else{
-  Schools.find().
-		exec(function(err, schools) {
-		if (err) {
-			return res.status(400).send({
-				message: errorHandler.getErrorMessage(err)
-			});
-		} else {
-			res.jsonp(schools);
+		if(req.query.course){
+			Schools.find().
+				where('course').equals(req.query.course).
+				exec(function(err, schools){
+					if (err) {
+						return res.status(400).send({
+							message: errorHandler.getErrorMessage(err)
+						});
+					} else {
+						res.jsonp(schools);
+					}
+				});
 		}
-	});
+		else{
+			Schools.find().
+				exec(function(err, schools) {
+				if (err) {
+					return res.status(400).send({
+						message: errorHandler.getErrorMessage(err)
+					});
+				} else {
+					res.jsonp(schools);
+				}
+			});
+		}
   }
   
 };	

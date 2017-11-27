@@ -15,7 +15,7 @@ angular.module('users').controller('SettingsController', ['$scope', 'Authenticat
     //       //console.log($scope.userProjects);
     //     }
     // );
-      var userP = Projects.query({minGrade:0,maxGrade:12}, function(){
+      var userP = Projects.query({minPrice:0,maxPrice:1000000000}, function(){
         var goo =[];
         for(var i in userP){
           for(var j in userP[i].projAdmin){
