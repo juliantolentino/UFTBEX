@@ -20,12 +20,8 @@ angular.module('projects').controller('ProjectsController', ['$scope', '$statePa
 				$scope.title = $scope.fillBook[0].title;
 				$scope.author = $scope.fillBook[0].author;
 				$scope.isbn = $scope.fillBook[0].isbn;
-				//$scope.condition = $scope.fillBook[0].condition;
-				//$scope.contactInformation = $scope.fillBook[0].contactInformation;
 				$scope.edition = $scope.fillBook[0].edition;
 				$scope.instructor = $scope.fillBook[0].instructor;
-				//$scope.location = $scope.fillBook[0].location;
-				//$scope.price = $scope.fillBook[0].price;
 				$scope.required = $scope.fillBook[0].required;
 				if($scope.required){
 					$scope.required = "Yes";
@@ -55,129 +51,7 @@ angular.module('projects').controller('ProjectsController', ['$scope', '$statePa
 			url: '/api/projects/picture'
 		});
 
-		$scope.setAskButt = function(bID , bDeg){
-			var stChange = "btn btn-success ".concat(bDeg);
-			var stOrig = "btn btn-default ".concat(bDeg);
-			if(this.ask !== undefined){
-				if(this.ask.learningObjective !== undefined){
-					if(this.ask.Constraints !== undefined){
-						if(this.ask.learningObjective !== "" && this.ask.Constraints !== ""){
-							document.getElementById(bID).className = stChange;
-						}
-						else{
-							document.getElementById(bID).className = stOrig;
-						}
-					}
-				}
-			}
-			else{
-					document.getElementById(bID).className = stOrig;
-			}
-		}
-		$scope.setResearchButt = function(bID , bDeg){
-			var stChange = "btn btn-success ".concat(bDeg);
-			var stOrig = "btn btn-default ".concat(bDeg);
-			console.log(this.research);
-			if(this.research !== undefined){
-				if(this.research.focus !== undefined){
-					if(this.research.resources !== undefined){
-						if(this.research.focus !== "" && this.research.resources !== ""){
-							document.getElementById(bID).className = stChange;
-						}
-						else{
-							document.getElementById(bID).className = stOrig;
-						}
-					}
-				}
-			}
-			else{
-					document.getElementById(bID).className = stOrig;
-			}
-		}
-		$scope.setImagineButt = function(bID , bDeg){
-			var stChange = "btn btn-success ".concat(bDeg);
-			var stOrig = "btn btn-default ".concat(bDeg);
-			console.log(this.research);
-			if(this.imagine !== undefined){
-				if(this.imagine.listStep !== "" ){
-					document.getElementById(bID).className = stChange;
-				}
-				else{
-					document.getElementById(bID).className = stOrig;
-				}
-			}
-			else{
-					document.getElementById(bID).className = stOrig;
-			}
-		}
-		$scope.setPlanButt = function(bID , bDeg){
-			var stChange = "btn btn-success ".concat(bDeg);
-			var stOrig = "btn btn-default ".concat(bDeg);
-			if(this.plan !== undefined){
-				if(this.plan.selectStep !== undefined){
-					if(this.plan.resources !== undefined){
-						if(this.plan.selectStep !== "" && this.plan.resources !== ""){
-							document.getElementById(bID).className = stChange;
-						}
-						else{
-							document.getElementById(bID).className = stOrig;
-						}
-					}
-				}
-			}
-			else{
-					document.getElementById(bID).className = stOrig;
-			}
-		}
-		$scope.setCreateButt = function(bID , bDeg){
-			var stChange = "btn btn-success ".concat(bDeg);
-			var stOrig = "btn btn-default ".concat(bDeg);
-			if(this.createStep !== undefined){
-				if(this.createStep.buildStep !== ""){
-					document.getElementById(bID).className = stChange;
-				}
-				else{
-					document.getElementById(bID).className = stOrig;
-				}
-			}
-			else{
-					document.getElementById(bID).className = stOrig;
-			}
-		}
-		$scope.setTestButt = function(bID , bDeg){
-			var stChange = "btn btn-success ".concat(bDeg);
-			var stOrig = "btn btn-default ".concat(bDeg);
-			if(this.testStep !== undefined){
-				if(this.testStep.designStep !== undefined){
-					if(this.testStep.successStep !== undefined){
-						if(this.testStep.designStep !== "" && this.testStep.successStep !== ""){
-							document.getElementById(bID).className = stChange;
-						}
-						else{
-							document.getElementById(bID).className = stOrig;
-						}
-					}
-				}
-			}
-			else{
-					document.getElementById(bID).className = stOrig;
-			}
-		}
-		$scope.setImproveButt = function(bID , bDeg){
-			var stChange = "btn btn-success ".concat(bDeg);
-			var stOrig = "btn btn-default ".concat(bDeg);
-			if(this.improveStep !== undefined){
-				if(this.improveStep.changeStep !== ""){
-					document.getElementById(bID).className = stChange;
-				}
-				else{
-					document.getElementById(bID).className = stOrig;
-				}
-			}
-			else{
-					document.getElementById(bID).className = stOrig;
-			}
-		}
+		
 		// Create new Project
 		$scope.create = function() {
 			// Create new Project object
@@ -277,30 +151,11 @@ angular.module('projects').controller('ProjectsController', ['$scope', '$statePa
 				status: this.status,
 				isPublic: this.isPublic,
 				projAdmin: this.collaborators,
-				minGrade: this.minGrade,
-				maxGrade: this.maxGrade,
-				askStandardStep: this.askStandardStep,
-				researchStandardStep: this.researchStandardStep,
-				imagineStandardStep: this.imagineStandardStep,
-				planStandardStep: this.planStandardStep,
-				createStandardStep: this.createStandardStep,
-				testStandardStep: this.testStandardStep,
-				improveStandardStep: this.improveStandardStep,
-				ask: this.ask,
-				research: this.research,
-				imagine: this.imagine,
-				plan: this.plan,
-				createStep: this.createStep,
-				testStep: this.testStep,
-				improveStep: this.improveStep,
-				worksheetStep: this.worksheetStep,
 				essentialDetails: this.essentialDetails,
 				rating: null,
 			});
 
 
-		$scope.additionalSubjects = ['Dance', 'English Language Development', 'Gifted', 'Health Education', 'Music', 'Physical Education',
-		'Special Skills', 'Technology', 'Theatre', 'Visual Art'];
 
 			// Redirect after save
 			project.$save(function(response) {
@@ -343,81 +198,7 @@ angular.module('projects').controller('ProjectsController', ['$scope', '$statePa
 			}
 		};
 
-		$scope.CombineStandards = function(){
-			//please note it will not only combine standards but also subjects
-			//the combine standards function's main goal is to be used in the edit project page
-			//when a project has been edited the overall standards and subjects are calculated
-			//so that they can be searched by those subjects and standards
-			//most of the if statements are to check if either that element exists or if it is not undefined
-			//in the case of checking undefined typeof allows us to preform this check without causing a crash if the array doesnt exist
-			$scope.project.essentialDetails.overallStandards = '';
-
-			$scope.project.essentialDetails.overallSubjects = '';
-			$scope.project.essentialDetails.overallSubjects += $scope.project.essentialDetails.litDetails[0].subjectName + ' , ';
-			$scope.project.essentialDetails.overallSubjects += $scope.project.essentialDetails.mathDetails[0].subjectName + ' , ';
-			$scope.project.essentialDetails.overallSubjects += $scope.project.essentialDetails.scienceDetails[0].subjectName + ' , ';
-			$scope.project.essentialDetails.overallSubjects += $scope.project.essentialDetails.ssDetails[0].subjectName + ' , ';
-
-			if($scope.project.essentialDetails.litDetails[0].standards !== ''){
-				$scope.project.essentialDetails.overallStandards += $scope.project.essentialDetails.litDetails[0].standards + ', ';
-			}
-			if($scope.project.essentialDetails.mathDetails[0].standards !== ''){
-				$scope.project.essentialDetails.overallStandards += $scope.project.essentialDetails.mathDetails[0].standards + ', ';
-			}
-			if($scope.project.essentialDetails.scienceDetails[0].standards !== ''){
-				$scope.project.essentialDetails.overallStandards += $scope.project.essentialDetails.scienceDetails[0].standards + ', ';
-			}
-			if($scope.project.essentialDetails.ssDetails[0].standards !== ''){
-				$scope.project.essentialDetails.overallStandards += $scope.project.essentialDetails.ssDetails[0].standards + ', ';
-			}
-			if(typeof $scope.project.essentialDetails.otherSubject !== 'undefined'){
-				if(typeof $scope.project.essentialDetails.otherSubject[0] !== 'undefined'){
-					if($scope.project.essentialDetails.otherSubject[0].subjectName !== ''){
-						$scope.project.essentialDetails.overallSubjects += $scope.project.essentialDetails.otherSubject[0].subjectName + ' , ';
-					}
-					if($scope.project.essentialDetails.otherSubject[0].standards !== ''){
-						$scope.project.essentialDetails.overallStandards += $scope.project.essentialDetails.otherSubject[0].standards + ', ';
-					}
-				}
-				if(typeof $scope.project.essentialDetails.otherSubject[1] !== 'undefined'){
-					if($scope.project.essentialDetails.otherSubject[1].subjectName !== ''){
-						$scope.project.essentialDetails.overallSubjects += $scope.project.essentialDetails.otherSubject[1].subjectName + ' , ';
-					}
-					if($scope.project.essentialDetails.otherSubject[1].standards !== ''){
-						$scope.project.essentialDetails.overallStandards += $scope.project.essentialDetails.otherSubject[1].standards + ', ';
-					}
-				}
-				if(typeof $scope.project.essentialDetails.otherSubject[2] !== 'undefined'){
-					if($scope.project.essentialDetails.otherSubject[2].subjectName !== ''){
-						$scope.project.essentialDetails.overallSubjects += $scope.project.essentialDetails.otherSubject[2].subjectName + ' , ';
-					}
-					if($scope.project.essentialDetails.otherSubject[2].standards !== ''){
-						$scope.project.essentialDetails.overallStandards += $scope.project.essentialDetails.otherSubject[2].standards + ', ';
-					}
-				}
-				if(typeof $scope.project.essentialDetails.otherSubject[3] !== 'undefined'){
-					if($scope.project.essentialDetails.otherSubject[3].subjectName !== ''){
-						$scope.project.essentialDetails.overallSubjects += $scope.project.essentialDetails.otherSubject[3].subjectName + ' , ';
-					}
-					if($scope.project.essentialDetails.otherSubject[3].standards !== ''){
-						$scope.project.essentialDetails.overallStandards += $scope.project.essentialDetails.otherSubject[3].standards + ', ';
-					}
-				}
-				if(typeof $scope.project.essentialDetails.otherSubject[4] !== 'undefined'){
-					if($scope.project.essentialDetails.otherSubject[4].subjectName !== ''){
-						$scope.project.essentialDetails.overallSubjects += $scope.project.essentialDetails.otherSubject[4].subjectName + ' , ';
-					}
-					if($scope.project.essentialDetails.otherSubject[4].standards !== ''){
-						$scope.project.essentialDetails.overallStandards += $scope.project.essentialDetails.otherSubject[4].standards + ', ';
-					}
-				}
-
-			}
-			
-			//the slice is used to clean up so that the last standard does not have a quote and a space
-			//we do not need it for projects since overall projects will never be used to display to the user
-			$scope.project.essentialDetails.overallStandards = $scope.project.essentialDetails.overallStandards.slice(0, -2);
-		};
+		
 
 		// Update existing Project
 		$scope.update = function() {
@@ -440,85 +221,8 @@ angular.module('projects').controller('ProjectsController', ['$scope', '$statePa
 			}
 		};
 
-		/////////////////////////////////////////////////////////////////////////////////////////////
+	
 
-		$scope.incRemix = function(){
- 			$scope.project.remixCount = $scope.project.remixCount + 1;
-             $scope.update();
- 		};
-
-		// Remix Project
-
-		$scope.remix = function() {
-
-			/*
-				Remix function allows users to take any public project, 
-				copy its contents and make it their own.
-			*/
-
-			// copies contents of current project
-           	var project_old = $scope.project;
-           	// concatenates ", Remix" to the title
-           	var project_old_name = [];
-           	project_old_name.push(project_old.name);
-           	project_old_name.push(" Remix");
-
-            var project = new Projects ({
-				name: project_old_name,
-				created: project_old.created,
-				user: this.user,
-				status: project_old.status,
-				isPublic: project_old.isPublic,
-				projAdmin: this.collaborators,
-				minGrade: project_old.minGrade,
-				maxGrade: project_old.maxGrade,
-				askStandardStep: project_old.askStandardStep,
-				ask: project_old.ask,
-				researchStandardStep: project_old.researchStandardStep,
-				research: project_old.research,
-				imagineStandardStep: project_old.imagineStandardStep,
-				imagine: project_old.imagine,
-				planStandardStep: project_old.planStandardStep,
-				plan: project_old.plan,
-				createStandardStep: project_old.createStandardStep,
-				createStep: project_old.createStep,
-				testStandardStep: project_old.testStandardStep,
-				testStep: project_old.testStep,
-				improveStandardStep: project_old.improveStandardStep,
-				improveStep: project_old.improveStep,
-				//worksheetStep:: project_old.worksheetStep,
-				essentialDetails: project_old.essentialDetails,
-				rating: null
-			});
-
-
-			// Redirect after save
-			project.$save(function(response) {
-
-				if($scope.uploaderC.queue.length > 0) {
-
-					$scope.uploaderC.queue[0].url = '/api/projects/picture/' + response._id;
-					$scope.uploaderC.uploadAll();
-				}
-				
-				// Clear form fields
-				$scope.name = '';
-
-
-				$location.path('projects/' + response._id);
-
-				$scope.project = project;
- 				$scope.update();
-
-			}, function(errorResponse) {
-				$scope.error = errorResponse.data.message;
-			});
-			
-		};
-
-
-		// Redirect after save
-			
 
 
 
@@ -549,44 +253,8 @@ angular.module('projects').controller('ProjectsController', ['$scope', '$statePa
 
 		};
 
-		//get userID for collaborator from email
-		$scope.addCollab = function(collabEmail) {
-			//$scope.collaborators = $scope.project.projAdmin;
-			if(collabEmail) {  //check something was typed
-				Projects.addCollab({email: collabEmail}, function(collab){  //lookup user
-					if(typeof collab._id !== "undefined"){  // check that a user was returned
-						if($scope.collaborators.indexOf(collab._id) < 0){  //check that it is not in the array already
-							$scope.collaborators.push(collab._id);  //add user id
-							console.log($scope.collaborators);
-						}
-						// if($scope.project.projAdmin.indexOf(collab._id) < 0){  //check that it is not in the array already
-						// 	$scope.project.projAdmin.push(collab._id);  //add user id
-						// 	console.log($scope.project.projAdmin);
-						// }
-					}
-					//console.log($scope.collaborators);
-				});
-			}	
-		};
 
-		$scope.editCollab = function(collabEmail) {
-			//$scope.collaborators = $scope.project.projAdmin;
-			if(collabEmail) {  //check something was typed
-				Projects.addCollab({email: collabEmail}, function(collab){  //lookup user
-					if(typeof collab._id !== "undefined"){  // check that a user was returned
-						// if($scope.collaborators.indexOf(collab._id) < 0){  //check that it is not in the array already
-						// 	$scope.collaborators.push(collab._id);  //add user id
-						// 	console.log($scope.collaborators);
-						// }
-						if($scope.project.projAdmin.indexOf(collab._id) < 0){  //check that it is not in the array already
-							$scope.project.projAdmin.push(collab._id);  //add user id
-							console.log($scope.project.projAdmin);
-						}
-					}
-					//console.log($scope.collaborators);
-				});
-			}	
-		};
+
 
 		// Called after the user selected a new picture file
 		$scope.uploader.onAfterAddingFile = function (fileItem) {
@@ -739,60 +407,7 @@ angular.module('projects').controller('ProjectsController', ['$scope', '$statePa
 		};
 
 		
-	//$scope.testList1 = [{'title': 'Standard1'},{'title': 'Standard2'},{'title': 'Standard3'}];
-        $scope.askStandardStep = [];
-        $scope.researchStandardStep = [];
-        $scope.imagineStandardStep = [];
-        $scope.planStandardStep = [];
-        $scope.createStandardStep = [];
-        $scope.testStandardStep = [];
-        $scope.improveStandardStep = [];
-        /*
-        $scope.askHideMe = function() {
-            return $scope.askStandardStep.length > 0;
-        };
-        
-        $scope.researchHideMe = function() {
-            return $scope.researchStandardStep.length > 0;
-        };
-        
-        $scope.imagineHideMe = function() {
-            return $scope.imagineStandardStep.length > 0;
-        };
-		
-        $scope.planHideMe = function() {
-            return $scope.planStandardStep.length > 0;
-        };
-        
-        $scope.createHideMe = function() {
-            return $scope.createStandardStep.length > 0;
-        };
-		
-        $scope.testHideMe = function() {
-            return $scope.testStandardStep.length > 0;
-        };		
-		
-        $scope.improveHideMe = function() {
-            return $scope.improveStandardStep.length > 0;
-        };
-		*/
+	
 	}
 ]);
-// .directive('popover', function($compile){
-//     return {
-//         restrict : 'A',
-//         link : function(scope, elem){
-            
-//             var content = $("#popover-content").html();
-//             var compileContent = $compile(content)(scope);
-//             var title = $("#popover-head").html();
-//             var options = {
-//                 content: compileContent,
-//                 html: true,
-//                 title: title
-//             };
-            
-//             $(elem).popover(options);
-//         }
-//     }
-// });
+

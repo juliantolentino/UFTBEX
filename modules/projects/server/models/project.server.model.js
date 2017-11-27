@@ -98,14 +98,6 @@ var ProjectSchema = new Schema({
 		type: Schema.ObjectId,
 		ref: 'User'
 	},
-	minGrade: {
-		type: Number,
-		default: 0
-	},
-	maxGrade: {
-		type: Number,
-		default: 12
-	},
 	status: {
 		type: String,
 		enum: ['Active', 'In Progress', 'InActive'],
@@ -118,10 +110,6 @@ var ProjectSchema = new Schema({
 	projAdmin:{
 		type: [Schema.ObjectId],
 	},
-	remixCount: {
- 		type: Number,
- 		default: 0
- 	},
 	rating: {
 		ratings: [
 			{
@@ -138,113 +126,6 @@ var ProjectSchema = new Schema({
 		avg_rating: {
 			//Recalculated from the ratings array every time a rating is submitted
 			type: Number
-		}
-	},
-	askStandardStep: [dragListSchema],
-	ask: {
-		/*goal: {
-			type: String,
-			default: ''
-		},
-		problemStatement: {
-			type: String,
-			default: ''
-		},
-		solvingProblem: {
-			type: String,
-			default: ''
-		},
-		constraints: {
-			type: String,
-			default: ''
-		},*/
-		//FOR NEW SCHEMA
-		learningObjective: {
-			type: String,
-			default: ''
-		},
-		Constraints: {
-			type: String,
-			default: ''
-		},
-		//standardStep: [dragListSchema]
-	},
-	//FOR NEW SCHEMA
-	researchStandardStep: [dragListSchema],
-	research: {
-		focus: {
-			type: String,
-			default: ''
-		},
-		resources: {
-			type: String,
-			default: ''
-		}
-	},
-	imagineStandardStep: [dragListSchema],
-	imagine: {
-		/*brainstorm: {
-			type: String,
-			default: ''
-		},
-		plan: {
-			type: String,
-			default: ''
-		},
-		materials: {
-			type: String,
-			default: ''
-		},*/
-		//FOR NEW SCHEMA
-		listStep: {
-			type: String,
-			default: ''
-		}
-	},
-	//FOR NEW SCHEMA
-	planStandardStep: [dragListSchema],
-	plan: {
-		selectStep: {
-			type: String,
-			default: ''
-		},
-		resources: {
-			type: String,
-			default: ''
-		}
-	},
-	//FOR NEW SCHEMA
-	createStandardStep: [dragListSchema],
-	createStep:{
-		buildStep:{
-			type: String,
-			default: ''
-		}
-	},
-	//FOR NEW SCHEMA
-	testStandardStep: [dragListSchema],
-	testStep:{
-		designStep: {
-			type: String,
-			default: ''
-		},
-		successStep:{
-			type: String,
-			default: ''
-		}
-	},
-	//FOR NEW SCHEMA
-	improveStandardStep: [dragListSchema],
-	improveStep:{
-		changeStep: {
-			type: String,
-			default: ''
-		}
-	},
-	worksheetStep:{
-		theWorksheet: {
-			type: String,
-			default: ''
 		}
 	},
 	essentialDetails: {

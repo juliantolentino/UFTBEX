@@ -26,13 +26,7 @@
 
     </div>
     <br>
-    <!--
-    <h3>Or...</h3>
-    <div class="input-group input-group-lg">
-      <span class="input-group-addon" id="sizing-addon1">By standard...</span>
-      <input id="standard" type="text" class="form-control" placeholder="eg. MAFS.7.SP.1.1" aria-describedby="sizing-addon1" ng-model= "search.searchText" ng-keypress = "enterPressStandard($event, search, show)">
-    </div>
-  -->
+
     <br>
     <br>
     <div class = "text-center"><button id="submit" type="submit" class="btn btn-warning btn-block" ng-click="show = true; find(search)" style="width:50%; margin-left:25%">Submit</button></div>
@@ -61,20 +55,12 @@
                                       {{prj.title}}</h4>
                                   </a>
                               </div>
-                              <!-- Shows author, grade range, and rating -->
                               <div><h5>
                                   Author: {{prj.author}}</h5></div>
                               <div><h5>
                                   Posted by <strong>{{prj.user.displayName}}</strong></h5></div>
                               
-                              <!--div class="col-xs-3-offset-3 col-md-3">
-                                    <h5> Rating:
-                                        <div  class = "gold glyphicon glyphicon-star"
-                                              style="font-size:1em"
-                                              ng-repeat="n in range(1,prj.rating.avg_rating,1)">
-                                        </div> {{noRatingCheck(prj.rating.avg_rating)}}
-                                    </h5>
-                              </div-->
+
                       </div>
                       <div class="card-text">
                           <div class="row">
@@ -88,17 +74,7 @@
                                         </div>
                                   </div>
                               </div>
-                              <!--div class="col-md-8">
-                                  <div class="panel panel-default">
-                                        <div class="panel-body">
-                                            <h4> </h4>
-                                            <p> </p>
-                                        </div>
-                                  </div>
 
-                              </div-->
-                              <!-- Shows standards met as 2/3 of the panel width-->
-                              
                           </div>
 
 
