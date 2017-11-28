@@ -5,7 +5,6 @@
  */
 var _ = require('lodash'),
   defaultAssets = require('./config/assets/default'),
-  testAssets = require('./config/assets/test'),
   gulp = require('gulp'),
   gulpLoadPlugins = require('gulp-load-plugins'),
   runSequence = require('run-sequence'),
@@ -67,7 +66,7 @@ gulp.task('csslint', function (done) {
 
 // JS linting task
 gulp.task('jshint', function () {
-  return gulp.src(_.union(defaultAssets.server.gulpConfig, defaultAssets.server.allJS, defaultAssets.client.js, testAssets.tests.server, testAssets.tests.client, testAssets.tests.e2e))
+  return gulp.src(_.union(defaultAssets.server.gulpConfig, defaultAssets.server.allJS, defaultAssets.client.js))
     .pipe(plugins.jshint())
     .pipe(plugins.jshint.reporter('default'))
     .pipe(plugins.jshint.reporter('fail'));
@@ -175,9 +174,9 @@ gulp.task('build', function(done) {
 });
 
 // Run the project tests
-gulp.task('test', function(done) {
-  runSequence('env:test', ['karma', 'mocha'], done);
-});
+//gulp.task('test', function(done) {
+ // runSequence('env:test', ['karma', 'mocha'], done);
+//});
 
 // Run the project in development mode
 gulp.task('default', function(done) {

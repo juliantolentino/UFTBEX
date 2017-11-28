@@ -5,7 +5,6 @@
  */
 var _ = require('lodash'),
   defaultAssets = require('./config/assets/default'),
-  testAssets = require('./config/assets/test'),
   fs = require('fs'),
   path = require('path');
 
@@ -92,7 +91,7 @@ module.exports = function (grunt) {
     },
     jshint: {
       all: {
-        src: _.union(defaultAssets.server.gruntConfig, defaultAssets.server.allJS, defaultAssets.client.js, testAssets.tests.server, testAssets.tests.client, testAssets.tests.e2e),
+        src: _.union(defaultAssets.server.gruntConfig, defaultAssets.server.allJS, defaultAssets.client.js),
         options: {
           jshintrc: true,
           node: true,
@@ -168,12 +167,6 @@ module.exports = function (grunt) {
           'stack-trace-limit': 50,
           'hidden': []
         }
-      }
-    },
-    mochaTest: {
-      src: testAssets.tests.server,
-      options: {
-        reporter: 'spec'
       }
     },
     karma: {
@@ -252,9 +245,9 @@ module.exports = function (grunt) {
   grunt.registerTask('build', ['env:dev', 'lint', 'ngAnnotate', 'uglify', 'cssmin']);
 
   // Run the project tests
-  grunt.registerTask('test', ['env:test', 'lint', 'mkdir:upload', 'copy:localConfig', 'server', 'mochaTest', 'karma:unit']);
-  grunt.registerTask('test:server', ['env:test', 'lint', 'server', 'mochaTest']);
-  grunt.registerTask('test:client', ['env:test', 'lint', 'server', 'karma:unit']);
+  //grunt.registerTask('test', ['env:test', 'lint', 'mkdir:upload', 'copy:localConfig', 'server', 'mochaTest', 'karma:unit']);
+ // grunt.registerTask('test:server', ['env:test', 'lint', 'server', 'mochaTest']);
+  //grunt.registerTask('test:client', ['env:test', 'lint', 'server', 'karma:unit']);
   // Run the project in development mode
   grunt.registerTask('default', ['env:dev', 'lint', 'mkdir:upload', 'copy:localConfig', 'concurrent:default']);
 
