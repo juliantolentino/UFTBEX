@@ -12,7 +12,7 @@
   <div class="list-group">
     <!--Admin Control Page
     Shows all accounts and their information:
-    username, email, school, age, and grades taught.
+    username, email, book, age, and grades taught.
     Allows quick analysis of demographics.
      -->
     <a data-ng-repeat="user in pagedItems" data-ui-sref="admin.user({userId: user._id})" class="list-group-item">
@@ -25,8 +25,8 @@
           <div class="col-md-3" data-ng-bind="user.email"></div>
            </div>
       <div class="row">
-        <div class="col-md-3"><strong>School</strong></div>
-        <div class="col-md-3" data-ng-bind="user.school"></div>
+        <div class="col-md-3"><strong>Book</strong></div>
+        <div class="col-md-3" data-ng-bind="user.book"></div>
       </div>
       <div class="row">
         <div class="col-md-3"><strong>Age</strong></div>

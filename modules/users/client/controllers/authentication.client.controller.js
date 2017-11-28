@@ -1,17 +1,17 @@
 'use strict';
 
-angular.module('users').controller('AuthenticationController', ['$scope', '$state', '$http', '$location', '$window', 'Authentication', 'Schools', 
-  function ($scope, $state, $http, $location, $window, Authentication, Schools) {
+angular.module('users').controller('AuthenticationController', ['$scope', '$state', '$http', '$location', '$window', 'Authentication', 'Books', 
+  function ($scope, $state, $http, $location, $window, Authentication, Books) {
     $scope.authentication = Authentication;
     // Get an eventual error defined in the URL query string:
 	$scope.error = $location.search().err;
 	
-	//get list of schools
-	$scope.schools = Schools.query();
-	$scope.schoolsC=[];
-	//set school list depending on dropdown choices
+	//get list of books
+	$scope.books = Books.query();
+	$scope.booksC=[];
+	//set book list depending on dropdown choices
 	$scope.countyChange = function(){
-		$scope.schoolsC = Schools.query({county:$scope.credentials.county.trim()});
+		$scope.booksC = Books.query({county:$scope.credentials.county.trim()});
 
 	};
 	// If user is signed in then redirect back home

@@ -1964,8 +1964,8 @@ describe('uftbex Demo App', function() {
        element(by.id('firstName')).sendKeys('Raz');
        element(by.id('lastName')).clear();
        element(by.id('lastName')).sendKeys('Aloni');
-       element(by.id('school')).clear();
-       element(by.id('school')).sendKeys('University of Florida');
+       element(by.id('book')).clear();
+       element(by.id('book')).sendKeys('University of Florida');
        element(by.id('email')).clear();
        element(by.id('email')).sendKeys('raloni@ufl.edu');
        element(by.id('username')).clear();

@@ -1,20 +1,20 @@
 'use strict';
 // Projects controller
 
-angular.module('projects').controller('ProjectsController', ['$scope', '$stateParams', '$sce', '$location', '$window', '$timeout', 'Authentication', 'Projects', 'FileUploader', 'linkify', 'Users', 'Schools',
-	function($scope, $stateParams, $sce, $location, $window, $timeout, Authentication, Projects, FileUploader, linkify , Users, Schools ) {
+angular.module('projects').controller('ProjectsController', ['$scope', '$stateParams', '$sce', '$location', '$window', '$timeout', 'Authentication', 'Projects', 'FileUploader', 'linkify', 'Users', 'Books',
+	function($scope, $stateParams, $sce, $location, $window, $timeout, Authentication, Projects, FileUploader, linkify , Users, Books ) {
 		$scope.authentication = Authentication;
 		$scope.collaborators = [];
-		$scope.books = Schools.query();
+		$scope.books = Books.query();
 		$scope.courseBook = '';
 		$scope.courseNum = '';
 		$scope.courseChange = function(){
 
-			$scope.bookFilter = Schools.query({course:$scope.courseNum.trim()});
+			$scope.bookFilter = Books.query({course:$scope.courseNum.trim()});
 		};
 		$scope.autoFillBook = function(){
 			
-			Schools.query({title:$scope.courseBook}).$promise.then(function(myres){
+			Books.query({title:$scope.courseBook}).$promise.then(function(myres){
 				$scope.fillBook = myres;
 				$scope.course = $scope.fillBook[0].course;
 				$scope.title = $scope.fillBook[0].title;
